@@ -1,0 +1,22 @@
+body {
+  /* removes body default margin */
+  margin: 0px;
+  background: white;
+}
+
+*, *::after, *::before {
+  /* sets the total width and height of an element to include border and padding */
+  box-sizing: border-box;
+}
+
+html {
+  /* font stack */
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+p,a,h1,h2 {
+  /* remove deafult margin */
+  margin: 0px;
+  /* set deafult colour */
+  color: black;
+}
