@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  background: gray;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+p,a,h1,h2 {
+  margin: 0px;
+  color: white;
+}
