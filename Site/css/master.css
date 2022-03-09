@@ -1,8 +1,9 @@
+/* Global */
+
 body {
   /* removes body default margin */
-
-  margin: auto 50px;
   background: white;
+  margin: 0px;
 }
 
 *, *::after, *::before {
@@ -19,25 +20,48 @@ p,a,h1,h2 {
   /* remove deafult margin */
   margin: 0px;
   /* set deafult colour */
-  color: black; {}
+  color: black;
 }
 
-/* .table {
-  border: 1px solid black;
-} */
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
+/* nav bar */
 
 header {
-  padding: 60px;
-  text-align: center;
-  background:  #808080;
+  background: #808080;
+  display: flex;
+  height: 60px;
+  font-size: 22px;
+}
+
+.nav-bar img {
+  width: 152px;
+  margin: 4px 20px;
+}
+
+.nav-links {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 17px;
+  width: 346px;
+}
+
+.nav-links a {
+  text-decoration: none;
   color: white;
-  font-size: 30px;
+}
 
+hr{
+  border: none;
+  height: 2px;
+  background-color: black;
+}
 
+/* index page */
+
+.index-container-body{
+  width: 95%;
+  margin-left: 5%;
+  max-width: 1000px;
+  margin-top: 20px;
 }
