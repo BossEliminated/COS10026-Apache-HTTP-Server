@@ -1,5 +1,6 @@
 body {
   /* removes body default margin */
+
   margin: auto 50px;
   background: white;
 }
@@ -34,19 +35,9 @@ td, th {
 header {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background:  #808080;
   color: white;
   font-size: 30px;
-
-
-
-
-
-
-
-
-
-
 
 
 }
