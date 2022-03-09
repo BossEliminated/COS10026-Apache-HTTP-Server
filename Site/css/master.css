@@ -1,6 +1,6 @@
 body {
   /* removes body default margin */
-  margin: 0px;
+  margin: auto 50px;
   background: white;
 }
 
