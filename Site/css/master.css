@@ -1,21 +1,25 @@
-/* Global */
+/* -------------------- Global -------------------- */
 
+/* nick */
 body {
   /* removes body default margin */
   background: white;
   margin: 0px;
 }
 
+/* nick */
 *, *::after, *::before {
   /* sets the total width and height of an element to include border and padding */
   box-sizing: border-box;
 }
 
+/* nick */
 html {
   /* font stack */
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
+/* nick */
 p,a,h1,h2 {
   /* remove deafult margin */
   margin: 0px;
@@ -23,8 +27,9 @@ p,a,h1,h2 {
   color: black;
 }
 
-/* nav bar */
+/* -------------------- nav bar --------------------- */
 
+/* nick */
 header {
   background: #808080;
   display: flex;
@@ -32,11 +37,13 @@ header {
   font-size: 22px;
 }
 
+/* nick */
 .nav-bar img {
   width: 152px;
   margin: 4px 20px;
 }
 
+/* nick */
 .nav-links {
   text-decoration: none;
   align-items: center;
@@ -46,22 +53,78 @@ header {
   width: 346px;
 }
 
+/* nick */
 .nav-links a {
   text-decoration: none;
   color: white;
 }
 
+/* nick */
 hr{
   border: none;
   height: 2px;
   background-color: black;
 }
 
-/* index page */
-
-.index-container-body{
+/* nick */
+.container{
   width: 95%;
   margin-left: 5%;
   max-width: 1000px;
   margin-top: 20px;
+}
+
+/* ----------------- index page ----------------- */
+
+.index-container-body{
+}
+
+/* ----------------- topic page ---------------- */
+
+.topic-container-body{
+}
+
+/* nick */
+.topic-container-body h1{
+  font-size: 30px;
+}
+
+/* nick */
+.topic-container-body h2{
+  font-size: 23px;
+}
+
+/* nick */
+.apache-support-info-table{
+  border-collapse: collapse;
+  min-width: 220px;
+}
+
+/* nick */
+.apache-support-info-table thead{
+  background-color: #00d5fd;
+}
+
+/* nick */
+.apache-support-info-table tbody tr{
+ border-bottom: 1px solid gray;
+ background-color: #e8e8e8;
+}
+
+/* nick */
+.topic-content {
+  margin-bottom: 15px;
+}
+
+/* nick */
+.topic-aside {
+  /* Sory, this is uguly but is a requirment */
+  width: 30%;
+  float: right;
+  overflow-wrap: anywhere;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
 }
