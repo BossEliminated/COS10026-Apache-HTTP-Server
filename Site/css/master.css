@@ -18,5 +18,15 @@ p,a,h1,h2 {
   /* remove deafult margin */
   margin: 0px;
   /* set deafult colour */
-  color: black;
+  color: black; {}
+}
+
+/* .table {
+  border: 1px solid black;
+} */
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
