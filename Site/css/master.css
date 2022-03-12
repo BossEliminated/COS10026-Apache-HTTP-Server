@@ -128,3 +128,11 @@ hr{
   margin: 10px;
   border: 1px solid;
 }
+
+footer {
+  .emphasized font-style: italic; 
+  text-align: center;
+  padding: 1px;
+  background-color: #808080;
+  color: white;
+}
