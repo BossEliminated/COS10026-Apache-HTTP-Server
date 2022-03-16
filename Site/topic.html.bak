@@ -31,7 +31,7 @@
 	  <div class="topic-content">
 		<h2>The popularity of Apache</h2>
 		<p>Apache is used by a large majority amongst the internet, even when many open source options are available such as <strong>NGINX</strong> and <strong>Node.JS</strong></p>
-		<button>Show</button>
+		<button>Show</button> <!-- Add functionality with CSS-->
 			<figure>
 		<!--I plan to add a table of data for this-->
 		
