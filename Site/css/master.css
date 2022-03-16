@@ -59,6 +59,7 @@ header {
   color: white;
 }
 
+
 /* yash */
 .nav-links a {
   background-color: #808080;
@@ -68,6 +69,9 @@ header {
 a:hover {
   background-color: black;
 }
+
+
+
 
 /* nick */
 hr{
