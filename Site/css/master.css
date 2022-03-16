@@ -59,6 +59,20 @@ header {
   color: white;
 }
 
+
+/* yash */
+.nav-links a {
+  background-color: #808080;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: black;
+}
+
+
+
+
 /* nick */
 hr{
   border: none;
@@ -130,6 +144,10 @@ hr{
 }
 
 footer {
+  font-style: italic;
+  position:absolute;
+  bottom:0;
+  width:100%;
   text-align: center;
   padding: 1px;
   background-color: #808080;
