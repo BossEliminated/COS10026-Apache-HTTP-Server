@@ -48,9 +48,7 @@ header {
   text-decoration: none;
   align-items: center;
   display: flex;
-  justify-content: space-between;
   margin-left: 17px;
-  width: 346px;
 }
 
 /* nick */
@@ -59,19 +57,25 @@ header {
   color: white;
 }
 
-
-/* yash */
+/* yash + nick */
 .nav-links a {
   background-color: #808080;
   transition: background-color .5s;
+  margin-right: 20px;
+  border-radius: 7px;
+  padding: 4px;
 }
 
-a:hover {
-  background-color: black;
+/* yash + nick */
+.nav-bar a:hover {
+  /* background-color: black; */
+
+  background-color: #0097bf73;
 }
 
-
-
+a.nav-bar-active {
+  text-decoration: underline;
+}
 
 /* nick */
 hr{
@@ -90,7 +94,39 @@ hr{
 
 /* ----------------- index page ----------------- */
 
-.index-container-body{
+/* nick */
+.index-container-intro {
+  text-align: center;
+  background-color: #dedede;
+  padding: 50px 0;
+}
+
+.index-container-body {
+
+}
+
+/* nick */
+.index-container {
+  margin: 20px auto;
+  width: 70%;
+  height: 100px;
+}
+
+.index-container img{
+  height: 100%;
+}
+
+.index-container-text {
+  float: left;
+  font-size: 30px;
+}
+
+.index-container-img {
+  float: right;
+}
+
+.index-clear {
+  clear: both;
 }
 
 /* ----------------- topic page ---------------- */
@@ -132,7 +168,6 @@ hr{
 
 /* nick */
 .topic-aside {
-  /* Sory, this is uguly but is a requirment */
   width: 30%;
   float: right;
   overflow-wrap: anywhere;
