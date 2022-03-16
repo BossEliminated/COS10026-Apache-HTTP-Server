@@ -73,6 +73,7 @@ header {
   background-color: #0097bf73;
 }
 
+/* nick */
 a.nav-bar-active {
   text-decoration: underline;
 }
@@ -112,19 +113,23 @@ hr{
   height: 100px;
 }
 
+/* nick */
 .index-container img{
   height: 100%;
 }
 
+/* nick */
 .index-container-text {
   float: left;
   font-size: 30px;
 }
 
+/* nick */
 .index-container-img {
   float: right;
 }
 
+/* nick */
 .index-clear {
   clear: both;
 }
