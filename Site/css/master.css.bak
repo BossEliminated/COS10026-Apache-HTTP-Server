@@ -205,5 +205,5 @@ footer {
 
 #footertopic {
 	color:rgb(10,10,50);
-	position:sticky;
+	/*position:sticky;*/
 }
