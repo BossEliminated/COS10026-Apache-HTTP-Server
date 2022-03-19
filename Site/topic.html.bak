@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Note for self, I want to add special css for hovering and further action dependent things -->
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/master.css">
@@ -18,7 +18,7 @@
   </header>
   <body id="color_back">
     <div class="container topic-container-body" id="color_textunder">
-      <h1>Apache HTTP Info</h1>
+      <h1 id="header_topic">Apache HTTP Info</h1>
       <hr>
       <div class="topic-content">
         <h2>What is apache?</h2>
@@ -30,28 +30,26 @@
       </div>
 	  <div class="topic-content">
 		<h2><a href="#">The popularity of Apache</a></h2>
-		<p>Apache is used by a large majority amongst the internet, even when many open source options are available such as <strong>NGINX</strong> and <strong>Node.JS</strong></p>
+		<p>Apache is used by a large majority amongst the internet, even when many open source options are available such as <strong id="tooltip_test">NGINX</strong> and <strong>Node.JS</strong></p>
 			<figure>
 		<!--I plan to add a table of data for this-->
-				<table><!-- Css Task for ChrisT, I will format this table-->
+				<table id="declinegrowthtable"><!-- Css Task for ChrisT, I will format this table-->
 					<tr>
-						<th>1995 April</th>
-						<th>1996</th>
-						<th>2016</th>
+						<th id="declinegrowthtable">1995 April</th>
+						<th id="declinegrowthtable">1996</th>
+						<th id="declinegrowthtable">2016</th>
 					</tr>
 					<tr>
-						<th>Apache Http Server is Created</th>
-						<th>Most used Web Server</th>
-						<th>Competitors start to overdominate the market over Apache</th>
-						<th>	</th>
-						<th>	</th>
-
-
+						<th id="declinegrowthtable">Apache Http Server is Created</th>
+						<th id="declinegrowthtable">Most used Web Server</th>
+						<th id="declinegrowthtable">Competitors start to overdominate the market over Apache</th>
 					</tr>
-
-
-
 				</table>
+				<figcaption>
+					<p><em>Data based off: <a href=#popularity-list id="datalink">Apache Official Website and Survey</a></em></p>
+					Apache's release was received greatly, with it gaining popularity fast. Only near a year after release it had become one of the largest
+					relied upon web server software in the realm of the internet. Only until around 10 years later did competitors start being used in a significant manner compared to Apache's large appeal to those looking for web server software.
+				</figcaption>
 			</figure>
 			<h3>The competitors to Apache</h3>
 			<p>There are multiple other open source options available,however as TCP/IP protocols for communication are ideal for both users adhering to such protocols to communicate successfully, there are not many options that don't rely on the TCP/IP protocols due to their utilisation throughout the web. So the differences between the many similar technologies all differ in their ______</p>
@@ -140,6 +138,21 @@
 	</table>
 	  </div>
 	  <div>
+	        <aside class="topic-aside topic-content">
+        <h2>Bibliography</h2>
+        <p>https://en.wikipedia.org/wiki/The_Apache_Software_Foundation</p>
+		<p id="REF_MODULES">https://httpd.apache.org/docs/2.4/mod/</p>
+		<p>https://opensource.com/business/16/8/top-5-open-source-web-servers</p>
+		<h3>Definition Reference List</h3>
+		<ul>
+		<p>https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/</p>
+		<div class="popularity-list">
+		<p>https://news.netcraft.com/archives/category/web-server-survey/</p>
+		<p>https://httpd.apache.org/ABOUT_APACHE.html</p>
+		<p>
+		</div>
+		</ul>
+      </aside>
 	  <hr>
 	  <h2>Explained Terms</h2>
 	  <dl>
@@ -155,21 +168,6 @@
 		<dd>A set of customisation and operations that can be added upon the core Apache system for more features. <small>eg: adding toppings on a vanilla ice cream for more flavour.</small> </dd>
 	  </dl>
 	  </div>
-      <aside class="topic-aside topic-content">
-        <h2>Bibliography</h2>
-        <p>https://en.wikipedia.org/wiki/The_Apache_Software_Foundation</p>
-		<p id="REF_MODULES">https://httpd.apache.org/docs/2.4/mod/</p>
-		<p>https://opensource.com/business/16/8/top-5-open-source-web-servers</p>
-		<h3>Definition Reference List</h3>
-		<ul>
-		<p>https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/</p>
-		<div class="popularity-list">
-		<p>https://news.netcraft.com/archives/category/web-server-survey/</p>
-		<p>https://httpd.apache.org/ABOUT_APACHE.html</p>
-		<p>
-		</div>
-		</ul>
-      </aside>
     </div>
 		<footer id="footertopic"><strong>Apache HTTP Information Page - TOPIC</strong></footer>
   </body>

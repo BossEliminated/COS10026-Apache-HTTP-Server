@@ -205,5 +205,20 @@ footer {
 
 #footertopic {
 	color:rgb(10,10,50);
-	/*position:sticky;*/
+	position:sticky;
+}
+
+#declinegrowthtable {
+	border:2px inset;
+	
+}
+
+#datalink {
+	color:rgb(0,0,20);
+}
+
+#header_topic{
+	color:rgb(50,0,0);
+	font: bolder Calibri 50px;
+	z-index:-5;
 }
