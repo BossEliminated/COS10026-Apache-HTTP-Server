@@ -17,7 +17,7 @@
     </div>
   </header>
   <body class="color_back">
-    <div class="container topic-container-body" class="color_textunder">
+    <div class="container topic-container-body" id="color_textunder">
       <h1 class="header_topic">Apache HTTP Info</h1>
       <hr>
       <div class="topic-content">
@@ -26,7 +26,7 @@
       </div>
       <div class="topic-content">
         <h2>Background</h2>
-        <p>Apache is non-copyleft open source and owned by the Apache Software Foundation. They are a nonprofit organisation and based in America. The group was established on March 25, 1999 today continuing to support a number of open source software projects.</p>
+        <p>Apache is non-copyleft open source and owned by the Apache Software Foundation. They are a nonprofit organisation and based in America. The group was established on March 25, 1999 today continuing to support a number of open source software projects. The origin of the Apache Project formed due to the slowly deprecating web server software "HTTP daemon" which was relied upon throughout the internet, and as a result the Apache project formed with the intention of creating a reliable web server software for public use. The original initiators of Apache were <a href=""><em>Brian Behlendorf, Cliff Skolnick</em><a> with the software contributed to by a large array of developers the two gathered.</p>
       </div>
 	  <div class="topic-content">
 		<h2><a href="#">The popularity of Apache</a></h2>
