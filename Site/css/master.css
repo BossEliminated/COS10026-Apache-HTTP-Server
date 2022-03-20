@@ -210,6 +210,12 @@ footer {
 
 #declinegrowthtable {/*chris*/
 	border:2px inset;
+	text-align:center;
+}
+
+#code { /*chris*/
+	position:relative;
+	left:20px;
 	
 }
 
@@ -221,12 +227,33 @@ footer {
 	color:rgb(50,0,0);
 	font: Calibri 50px;
 	z-index:-5;
+}
+
+#header_offset {
+	position:relative;
+	top:20px;
+	left:10px;
+	
+}
+
+#hyperlink_highlighter{
+	position:relative;
+	left:10px;
+	color:rgb(40,40,255);
 	
 }
 
 #beyondsection {/*chris*/
-	border-style:solid;
+	margin-right:400px;
+	border-style:ridge;
+	border-width:10px;
 	position:relative;
-	left:10px;
+	left:80px;
+	top:20px;
+}
+
+#tooltip {
+	
+	
 	
 }
