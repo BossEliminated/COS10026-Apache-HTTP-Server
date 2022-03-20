@@ -203,23 +203,30 @@ footer {
 	border-style:solid;
 }
 
-#footertopic {
+#footertopic { /*chris*/
 	color:rgb(10,10,50);
 	position:sticky;
 }
 
-#declinegrowthtable {
+#declinegrowthtable {/*chris*/
 	border:2px inset;
 	
 }
 
-#datalink {
+#datalink {/*chris*/
 	color:rgb(0,0,20);
 }
 
-#header_topic{
+#header_topic{/*chris*/
 	color:rgb(50,0,0);
 	font: Calibri 50px;
 	z-index:-5;
+	
+}
+
+#beyondsection {/*chris*/
+	border-style:solid;
+	position:relative;
+	left:10px;
 	
 }
