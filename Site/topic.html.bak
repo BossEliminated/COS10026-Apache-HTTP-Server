@@ -16,9 +16,9 @@
       <a href="enhancements.html">Enhancements</a>
     </div>
   </header>
-  <body id="color_back">
-    <div class="container topic-container-body" id="color_textunder">
-      <h1 id="header_topic">Apache HTTP Info</h1>
+  <body class="color_back">
+    <div class="container topic-container-body" class="color_textunder">
+      <h1 class="header_topic">Apache HTTP Info</h1>
       <hr>
       <div class="topic-content">
         <h2>What is apache?</h2>
@@ -30,28 +30,31 @@
       </div>
 	  <div class="topic-content">
 		<h2><a href="#">The popularity of Apache</a></h2>
-		<p>Apache is used by a large majority amongst the internet, even when many open source options are available such as <strong id="tooltip_test">NGINX</strong> and <strong id="tooltip_test">Node.JS</strong></p>
+		<p>Apache is used by a large majority amongst the internet, even when many open source options are available such as <strong class="tooltip_test">NGINX</strong> and <strong class="tooltip_test">Node.JS</strong></p>
 			<figure>
 		<!--I plan to add a table of data for this-->
-				<table id="declinegrowthtable"><!-- Css Task for ChrisT, I will format this table-->
+				<table class="declinegrowthtable"><!-- Css Task for ChrisT, I will format this table-->
 					<tr>
-						<th id="declinegrowthtable">1995 April</th>
-						<th id="declinegrowthtable">1996</th>
-						<th id="declinegrowthtable">2016</th>
+						<th class="declinegrowthtable">General Timing</th>
+						<th class="declinegrowthtable">1995 April</th>
+						<th class="declinegrowthtable">1996</th>
+						<th class="declinegrowthtable">2016</th>
 					</tr>
 					<tr>
-						<td id="declinegrowthtable">Apache Http Server is Created</th>
-						<td id="declinegrowthtable">Most used Web Server</th>
-						<td id="declinegrowthtable">Competitors start to overdominate the market over Apache</th>
+						<th class="declinegrowthtable">Landmark Event</th>
+						<td class="declinegrowthtable">Apache Http Server is Created</th>
+						<td class="declinegrowthtable">Most used Web Server</th>
+						<td class="declinegrowthtable">Competitors start to overdominate the market over Apache</th>
 					</tr>
 					<tr>
-						<td id="declinegrowthtable">0%</td>
-						<td id="declinegrowthtable">41%</td>
-						<td id="declinegrowthtable">27%</td>
+						<th class="declinegrowthtable">Usage compared to other Web Servers</th>
+						<td class="declinegrowthtable">0%</td>
+						<td class="declinegrowthtable">41%</td>
+						<td class="declinegrowthtable">27%</td>
 					</tr>
 				</table>
 				<figcaption>
-					<p><em>Data based off: <a href=#popularity-list id="datalink">Apache Official Website and Survey</a></em></p>
+					<p><em>Data based off: <a href=#popularity-list class="datalink">Apache Official Website and Survey</a></em></p>
 					Apache's release was received greatly, with it gaining popularity fast. Only near a year after release it had become one of the largest
 					relied upon web server software in the realm of the internet. Only until around 10 years later did competitors start being used in a significant manner compared to Apache's large appeal to those looking for web server software.
 				</figcaption>
@@ -148,14 +151,14 @@
 			<sub>
 			<ul>
 				<li><a href="https://en.wikipedia.org/wiki/The_Apache_Software_Foundation"><p>https://en.wikipedia.org/wiki/The_Apache_Software_Foundation</p></a></li>
-				<li><a href="https://httpd.apache.org/docs/2.4/mod/"><p id="REF_MODULES">https://httpd.apache.org/docs/2.4/mod/</p></li></a>
+				<li><a href="https://httpd.apache.org/docs/2.4/mod/"><p class="REF_MODULES">https://httpd.apache.org/docs/2.4/mod/</p></li></a>
 				<li><a href="https://opensource.com/business/16/8/top-5-open-source-web-servers"><p>https://opensource.com/business/16/8/top-5-open-source-web-servers	</p></li></a>
 			</ul>
 			</sub>
 		<h3>Definition Reference List</h3>
 		<ul>
 			<p><sub><a href="https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/">https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/</a></p></sub>
-		<div id="popularity-list">
+		<div class="popularity-list">
 		<h4>Table Data</h4>
 			<ul>
 				<sub><li><p><a href="https://news.netcraft.com/archives/category/web-server-survey/">https://news.netcraft.com/archives/category/web-server-survey/</a></p></li>
@@ -169,19 +172,19 @@
 	  <hr>
 	  <h2>Explained Terms</h2>
 	  <dl>
-		<dt><h3 id="HTTP_DEF">HTTP</h3></dt>
+		<dt><h3 class="HTTP_DEF">HTTP</h3></dt>
 		<dd>Web protocol related to the transmission of media across the internet.</dd>
-		<dt><h3 id="WEBSERVER_DEF">Web Server</h3></dt>
+		<dt><h3 class="WEBSERVER_DEF">Web Server</h3></dt>
 		<dd>A computer utilised as a source of information, which receives requests and provides content to users in the internet. Generally represented as the website itself.</dd>
-		<dt><h3 id="CLIENT_DEF">Client</h3></dt>
+		<dt><h3 class="CLIENT_DEF">Client</h3></dt>
 		<dd>The creator of HTTP requests, the part of the exchange where information is requested from the server. The client can be viewed as the person attempting to connect to the Apache Server externally.</dd>
-		<dt><h3 id="PROXY_DEF">Proxy Request</h3></dt>
+		<dt><h3 class="PROXY_DEF">Proxy Request</h3></dt>
 		<dd>A proxy request is the product of a connection going through a proxy server.</dd>
-		<dt><h3 id="MODULES_DEF">Modules</h3></dt>
+		<dt><h3 class="MODULES_DEF">Modules</h3></dt>
 		<dd>A set of customisation and operations that can be added upon the core Apache system for more features. <small>eg: adding toppings on a vanilla ice cream for more flavour.</small> </dd>
 	  </dl>
 	  </div>
     </div>
-		<footer id="footertopic"><strong>Apache HTTP Information Page - TOPIC</strong></footer>
+		<footer class="footertopic"><strong>Apache HTTP Information Page - TOPIC</strong></footer>
   </body>
 </html>

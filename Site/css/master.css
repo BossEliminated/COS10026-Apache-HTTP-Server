@@ -194,7 +194,7 @@ footer {
   color: white;
 }
 
-#color_back { /*    chris */
+.color_back { /*    chris */
 	background-color:rgb(250,255,250);
 }
 
@@ -203,47 +203,61 @@ footer {
 	border-style:solid;
 }
 
-#footertopic { /*chris*/
+.footertopic { /*chris*/
 	color:rgb(10,10,50);
 	position:sticky;
 }
 
-#declinegrowthtable {/*chris*/
+.declinegrowthtable {/*chris*/
 	border:2px inset;
 	text-align:center;
 }
 
-#code { /*chris*/
+.code { /*chris*/
 	position:relative;
 	left:20px;
 	
 }
 
-#datalink {/*chris*/
+.datalink {/*chris*/
 	color:rgb(0,0,20);
 }
 
-#header_topic{/*chris*/
+.header_topic{/*chris*/
 	color:rgb(50,0,0);
 	font: Calibri 50px;
 	z-index:-5;
 }
 
-#header_offset {
+.header_offset {
 	position:relative;
 	top:20px;
 	left:10px;
 	
 }
 
-#hyperlink_highlighter{
+.hyperlink_highlighter{
 	position:relative;
 	left:10px;
 	color:rgb(40,40,255);
 	
 }
 
-#beyondsection {/*chris*/
+.hyperlink_highlighter:hover{
+	left:20px;
+	
+	
+}
+
+.hyperlink_highlighter:visited{
+	
+	position:relative;
+	left:0px;
+	color:rgb(40,40,255);
+	
+}
+
+.beyondsection {/*chris*/
 	margin-right:400px;
 	border-style:ridge;
 	border-width:10px;
@@ -252,8 +266,3 @@ footer {
 	top:20px;
 }
 
-#tooltip {
-	
-	
-	
-}

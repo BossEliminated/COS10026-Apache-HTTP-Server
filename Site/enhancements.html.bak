@@ -23,11 +23,11 @@
 					<p>Placeholder Text</p>
 						<ul>
 							<li><a id="hyperlink_highlighter" href="topic.html#HTTP_DEF"><p>Link to Section of Page</p></a></li>
-						<ul>
+						</ul>
 					<p>Placeholder Text</p>
 						<ul>
 							<li><a id="hyperlink_highlighter" href="topic.html#HTTP_DEF"><p>Link to Section of Page</p></a></li>
-						<ul>
+						</ul>
 			</div><!-- Copy and paste section-->
 		<h2 id="header_offset">Code Implemented</h2>
 			<div id="beyondsection">
