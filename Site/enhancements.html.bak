@@ -22,7 +22,7 @@
 				<h3>Placeholder_Name</h3>
 					<p>Placeholder Text</p>
 						<ul>
-							<li><a class="hyperlink_highlighter" href="topic.html#HTTP_DEF"><p>Link to Section of Page</p></a></li>
+							<li><p><a class="hyperlink_highlighter" href="topic.html#HTTP_DEF"><p>Link to Section of Page</a></p></li>
 						</ul>
 					<p>Placeholder Text</p>
 						<ul>
@@ -46,10 +46,8 @@
 						</ul>
 			</div>
 			
-			<footer class="footertopic">
-			This page is for expressing enhancements
-			</footer>
 			
 
   </body>
+  <footer></footer>
 </html>
