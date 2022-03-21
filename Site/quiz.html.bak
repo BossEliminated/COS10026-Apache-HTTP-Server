@@ -3,9 +3,6 @@
   <head>
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
-	<meta name="author" content="Nicholas, Christopher, Yash, Syed">
-	<meta name="keywords" content="Quiz, Questions, Forms">
-	<meta name="description" content="Quiz information">
     <title>UIP</title>
   </head>
   <header class="nav-bar">

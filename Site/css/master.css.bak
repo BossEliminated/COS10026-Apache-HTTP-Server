@@ -1,4 +1,26 @@
+/* -------------------- Global -------------------- 
+Authors:
+Purpose:
+
+
+
+*/
+
+
+
+
+
+
+
+
 /* -------------------- Global -------------------- */
+
+
+
+
+
+
+
 
 /* nick */
 body {
@@ -207,10 +229,18 @@ footer {
 
 .footertopic { /*chris*/
 	color:rgb(10,10,50);
-	position:sticky;
+	position:relative;
+}
+
+.footersetter { /*chris*/
+	color:rgb(10,10,50);
+	position:relative;
+	top:20px;
+	height:20px;
 }
 
 .declinegrowthtable {/*chris*/
+	
 	border:2px inset;
 	text-align:center;
 }
@@ -251,6 +281,10 @@ footer {
 	
 }
 
+th.declinegrowthtable{ /*chris*/
+	background-color:lightblue;
+}
+
 .hyperlink_highlighter:visited{/*chris*/
 	
 	position:relative;
@@ -268,9 +302,8 @@ footer {
 	top:20px;
 }
 
-.enhancements_body {
-	
-	
+.beyondsection:hover{ /*chris*/
+	border-style:groove;
 }
 
 

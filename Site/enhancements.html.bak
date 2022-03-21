@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
+	<meta name="author" content="Nicholas, Christopher, Yash, Syed">
+	<meta name="keywords" content="Improvements, Changes">
+	<meta name="description" content="Changes that go beyond requirements">
     <title>UIP</title>
   </head>
   <header class="nav-bar">
@@ -26,7 +29,7 @@
 						</ul>
 					<p>Placeholder Text</p>
 						<ul>
-							<li><a class="hyperlink_highlighter" href="topic.html#HTTP_DEF"><p>Link to Section of Page</p></a></li>
+							<li><p><a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link to Section of Page</a></p></li>
 						</ul>
 			</div><!-- Copy and paste section-->
 		<h2 class="header_offset">Code Implemented</h2>
@@ -49,5 +52,5 @@
 			
 
   </body>
-  <footer></footer>
+  <footer class="footersetter">Each enhancement can be clicked on to send interactees to a certain section.</footer>
 </html>
