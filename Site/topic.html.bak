@@ -26,7 +26,7 @@
       </div>
       <div class="topic-content">
         <h2>Background</h2>
-        <p>Apache is non-copyleft open source and owned by the Apache Software Foundation. They are a nonprofit organisation and based in America. The group was established on March 25, 1999 today continuing to support a number of open source software projects. The origin of the Apache Project formed due to the slowly deprecating web server software "HTTP daemon" which was relied upon throughout the internet, and as a result the Apache project formed with the intention of creating a reliable web server software for public use. The original initiators of Apache were <a href=""><em>Brian Behlendorf, Cliff Skolnick</em><a> with the software contributed to by a large array of developers the two gathered.</p>
+        <p>Apache is non-copyleft open source and owned by the Apache Software Foundation. They are a nonprofit organisation and based in America. The group was established on March 25, 1999 today continuing to support a number of open source software projects. The origin of the Apache Project formed due to the slowly deprecating web server software "HTTP daemon" which was relied upon throughout the internet, and as a result the Apache project formed with the intention of creating a reliable web server software for public use. The original initiators of Apache were <a href="https://httpd.apache.org/ABOUT_APACHE.html#How"><em>Brian Behlendorf, Cliff Skolnick</em><a> with the software contributed to by a large array of developers the two gathered.</p>
       </div>
 	  <div class="topic-content">
 		<h2><a href="#">The popularity of Apache</a></h2>
@@ -54,7 +54,7 @@
 					</tr>
 				</table>
 				<figcaption>
-					<p><em>Data based off: <a href=#popularity-list class="datalink">Apache Official Website and Survey</a></em></p>
+					<sub><p><em>Data based off: <a href=#popularity-list class="datalink">Apache Official Website and Survey</a></em></p></sub>
 					Apache's release was received greatly, with it gaining popularity fast. Only near a year after release it had become one of the largest
 					relied upon web server software in the realm of the internet. Only until around 10 years later did competitors start being used in a significant manner compared to Apache's large appeal to those looking for web server software.
 				</figcaption>
@@ -101,10 +101,11 @@
 			<p>Apache's core is based on its fundamental purpose being its web server functionality. Fundamentally handling the requests and providing content to those who request it. Importantly Apache utilises TCP/IP protocol to ensure packets arrive</p>
 		</section>
 		<section>
-		<h3>Versions of Apache</h3>
-			<p>Apache is a software with a long past, resulting in many versions of Apache available for use. Whilst documentation is available a small amount of old versions of Apache, with any set of software the arrival of new features and security patches emphasises a strong recommendation that latest versions are utilised. The current latest version of Apache recommended is <strong>2.4</strong> as of 14/03/2022.</p>
-		<h3>Downloading Apache</h3>
-			<p>Apache allows users to easily download the software, and access many of the older versions of Apache. The methods of downloading for each operating system differs, however each Operating System may result in a slightly different process when downloading Apache, with the favoured OS being linux with files provided in linux file format.</p>
+			<h3>Versions of Apache</h3>
+				<p>Apache is a software with a long past, resulting in many versions of Apache available for use. Whilst documentation is available a small amount of old versions of Apache, with any set of software the arrival of new features and security patches emphasises a strong recommendation that latest versions are utilised. The current latest version of Apache recommended is <strong>2.4</strong> as of 14/03/2022.</p>
+			<h3>Downloading Apache</h3>
+				<pre><p>Apache allows users to easily download the software, and access many of the older versions of Apache. The methods of downloading for each operating system differs, however each Operating System may result in a slightly different process when downloading Apache, with the favoured OS being linux with files provided in linux file format.
+				</p></pre>
 		</section>
 	  </div>
       <div class="topic-content">

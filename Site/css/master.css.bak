@@ -152,6 +152,8 @@ hr{
 /* nick */
 .apache-support-info-table{
   border-collapse: collapse;
+  position:relative;
+  left:10px;
   min-width: 220px;
 }
 
@@ -198,7 +200,7 @@ footer {
 	background-color:rgb(250,255,250);
 }
 
-.color_textunder { /*chris*/
+#color_textunder { /*chris*/
 	background-color:rgb(255,255,255);
 	border-style:solid;
 }
@@ -229,27 +231,27 @@ footer {
 	z-index:-5;
 }
 
-.header_offset {
+.header_offset { /*chris*/
 	position:relative;
 	top:20px;
 	left:10px;
 	
 }
 
-.hyperlink_highlighter{
+.hyperlink_highlighter{/*chris*/
 	position:relative;
 	left:10px;
 	color:rgb(40,40,255);
 	
 }
 
-.hyperlink_highlighter:hover{
+.hyperlink_highlighter:hover{/*chris*/
 	left:20px;
 	
 	
 }
 
-.hyperlink_highlighter:visited{
+.hyperlink_highlighter:visited{/*chris*/
 	
 	position:relative;
 	left:0px;
@@ -265,4 +267,10 @@ footer {
 	left:80px;
 	top:20px;
 }
+
+.enhancements_body {
+	
+	
+}
+
 
