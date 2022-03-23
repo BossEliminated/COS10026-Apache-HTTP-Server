@@ -3,9 +3,6 @@
   <head>
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
-	<meta name="author" content="Nicholas, Christopher, Yash, Syed">
-	<meta name="keywords" content="Improvements, Changes">
-	<meta name="description" content="Changes that go beyond requirements">
     <title>UIP</title>
   </head>
   <header class="nav-bar">
@@ -52,5 +49,5 @@
 			
 
   </body>
-  <footer class="footersetter">Each enhancement can be clicked on to send interactees to a certain section.</footer>
+  <footer class="footersetter">Members of our team:</footer>
 </html>

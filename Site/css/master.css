@@ -193,6 +193,8 @@ hr{
 /* nick */
 .topic-content {
   margin-bottom: 15px;
+  border:solid;
+  border-radius:10px;
 }
 
 /* nick */
@@ -224,7 +226,7 @@ footer {
 
 #color_textunder { /*chris*/
 	background-color:rgb(255,255,255);
-	border-style:solid;
+	/*border-style:rounded;*/
 }
 
 .footertopic { /*chris*/
