@@ -10,7 +10,7 @@ Purpose:
 /* nick */
 body {
   /* removes body default margin */
-  background: white;
+  background: gainsboro;
   margin: 0px;
 }
 
@@ -40,7 +40,7 @@ p,a,h1,h2 {
 
 /* nick */
 header {
-  background: #808080;
+  background: #ffffff;
   display: flex;
   height: 60px;
   font-size: 22px;
@@ -107,8 +107,13 @@ hr{
 /* nick */
 .index-container-intro {
   text-align: center;
-  background-color: #dedede;
+  background: rgb(121,9,9);
+  background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(91,9,121,1) 76%, rgba(140,0,255,1) 100%);
   padding: 50px 0;
+}
+
+.index-container-intro h1 {
+  color: white;
 }
 
 .index-container-body {
@@ -286,12 +291,14 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .beyondsection {/*chris*/
+	background-color:white;
 	margin-right:400px;
 	margin-left:250px;
 	border-style:ridge;
 	border-width:10px;
 	position:relative;
 	left:80px;
+	padding:10px;
 	/*top:20px;*/
 }
 
@@ -300,7 +307,9 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .enhancements_body {
+	background-color:white;
 	text-align:center;
+	overflow:hidden;
 }
 
 .ulchanges {
@@ -325,4 +334,19 @@ th.declinegrowthtable{ /*chris*/
 
 .colorsegment_mid {
 	background-color:rgb(248,248,248);
+}
+
+img.index-bottom-image {
+  width: auto;
+  height: auto;
+
+
+
+
+}
+
+#enhancements_header {
+	border:solid;
+	border-color:rgb(240,240,240);
+	
 }

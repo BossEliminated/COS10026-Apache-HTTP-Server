@@ -16,7 +16,7 @@
     </div>
   </header>
   <body class="enhancements_body">
-	<h1>Enhancements</h1>
+	<h1 id="enhancements_header">Enhancements</h1>
 	  <hr>
 	  	<h2 class="header_offset">Going Beyond the Basic Standards of the Project</h2>
 			<div class="beyondsection"><!-- Copy and paste section-->
@@ -27,7 +27,7 @@
 							<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
 						
 			</div><!-- Copy and paste section-->
-		<div class="colorsegment_mid>
+		<div class="colorsegment_mid">
 			<h2 class="header_offset">Code Implemented</h2>
 				<div class="beyondsection">
 					<h3>Placeholder_Name</h3>
