@@ -117,10 +117,6 @@ img.index-container-img { /*Nick T*/
   margin: auto;
 }
 
-.index-clear { /*Nick T*/
-  clear: both;
-}
-
 /* ----------------- Topic page ---------------- */
 .topic-background { /*Chris + Nick T*/
   background: #004167;
@@ -317,4 +313,5 @@ footer {
   padding: 1px;
   background-color: #808080;
   color: white;
+  clear: both;
 }
