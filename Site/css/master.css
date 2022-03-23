@@ -334,12 +334,27 @@ th.declinegrowthtable{ /*chris*/
 }
 
 img.index-bottom-image {
-  width: auto;
-  height: auto;
+  float: left;
 }
+
+.ee {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  font-size: 5ch
+}
+
+.index-container-text {
+  text-align: right;
+}
+
+
+
+
+
+
 
 /* Quiz */
 
 .quiz-legend {
-  font-weight: 800;
-}
+  font-weight: 800;}
