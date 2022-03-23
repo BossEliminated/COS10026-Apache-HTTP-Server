@@ -1,26 +1,11 @@
-/* -------------------- Global --------------------
+/*
+
 Authors:
 Purpose:
 
-
-
 */
 
-
-
-
-
-
-
-
 /* -------------------- Global -------------------- */
-
-
-
-
-
-
-
 
 /* nick */
 body {
@@ -48,6 +33,8 @@ p,a,h1,h2 {
   /* set deafult colour */
   color: black;
 }
+
+/* -------------------- Global -------------------- */
 
 /* -------------------- nav bar --------------------- */
 
@@ -147,8 +134,9 @@ hr{
 }
 
 /* nick */
-.index-container-img {
-  float: right;
+img.index-container-img {
+  height: 300px;
+  margin: auto;
 }
 
 /* nick */
@@ -287,11 +275,9 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .hyperlink_highlighter:visited{/*chris*/
-
 	position:relative;
 	left:0px;
 	color:rgb(40,40,255);
-
 }
 
 .beyondsection {/*chris*/
@@ -305,20 +291,4 @@ th.declinegrowthtable{ /*chris*/
 
 .beyondsection:hover{ /*chris*/
 	border-style:groove;
-}
-
-.enhancements_body {
-	
-	
-	
-}
-
-
-.box1 > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
 }
