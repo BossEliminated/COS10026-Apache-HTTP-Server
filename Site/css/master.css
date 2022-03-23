@@ -10,7 +10,7 @@ Purpose:
 /* nick */
 body {
   /* removes body default margin */
-  background: white;
+  background: gainsboro;
   margin: 0px;
 }
 
@@ -40,7 +40,7 @@ p,a,h1,h2 {
 
 /* nick */
 header {
-  background: #808080;
+  background: #ffffff;
   display: flex;
   height: 60px;
   font-size: 22px;
