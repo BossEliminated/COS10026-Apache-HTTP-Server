@@ -1,75 +1,60 @@
 /*
-
 Authors: Syed, Yashas, Nick, Chris, Rohit
 Purpose: Deliver our Apache server content in a manner that is easy and beautiful to read
-
 */
 
 /* -------------------- Global -------------------- */
-
-/* nick */
-body {
+body { /*Nick T*/
   /* removes body default margin */
   background: gainsboro;
   margin: 0px;
 }
 
-/* nick */
-*, *::after, *::before {
+*, *::after, *::before { /*Nick T*/
   /* sets the total width and height of an element to include border and padding */
   box-sizing: border-box;
 }
 
-/* nick */
-html {
+html { /*Nick T*/
   /* font stack */
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
-/* nick */
-p,a,h1,h2 {
+p,a,h1,h2 { /*Nick T*/
   /* remove deafult margin */
   margin: 0px;
   /* set deafult colour */
   color: black;
 }
 
-/* -------------------- Global -------------------- */
-
-/* -------------------- nav bar --------------------- */
-
-/* nick */
-header {
+/* -------------------- Navbar --------------------- */
+header { /*Nick T*/
   background: #ffffff;
   display: flex;
   height: 60px;
   font-size: 22px;
 }
 
-/* nick */
-.nav-bar img {
+.nav-bar img { /*Nick T*/
   margin: 0 20px;
   width: 152px;
   height: 60px;
   padding: 4px 0px;
 }
 
-/* nick */
-.nav-links {
+.nav-links { /*Nick T*/
   text-decoration: none;
   align-items: center;
   display: flex;
   margin-left: 17px;
 }
 
-/* nick */
-.nav-links a {
+.nav-links a { /*Nick T*/
   text-decoration: none;
   color: white;
 }
 
-/* yash + nick */
-.nav-links a {
+.nav-links a { /* yash + nick */
   background-color: #808080;
   transition: background-color .5s;
   margin-right: 20px;
@@ -77,37 +62,31 @@ header {
   padding: 4px;
 }
 
-/* yash + nick */
-.nav-bar a:hover {
+.nav-bar a:hover { /* yash + nick */
   /* background-color: black; */
 
   background-color: #0097bf73;
 }
 
-/* nick */
-a.nav-bar-active {
+a.nav-bar-active { /*Nick T*/
   text-decoration: underline;
 }
 
-/* nick */
-hr{
+hr{ /*Nick T*/
   border: none;
   height: 2px;
   background-color: black;
 }
 
-/* nick */
-.container{
+.container{ /*Nick T*/
   width: 95%;
   margin-left: 5%;
   max-width: 1000px;
   margin-top: 20px;
 }
 
-/* ----------------- index page ----------------- */
-
-/* nick */
-.index-container-intro {
+/* ----------------- Index page ----------------- */
+.index-container-intro { /*Nick T*/
   text-align: center;
   background: rgb(121,9,9);
   background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(91,9,121,1) 76%, rgba(140,0,255,1) 100%);
@@ -118,83 +97,67 @@ hr{
   color: white;
 }
 
-.index-container-body {
+.index-container-body {}
 
-}
-
-/* nick */
-.index-container {
+.index-container { /*Nick T*/
   margin: 20px auto;
   width: 70%;
   height: 100px;
 }
 
-/* nick */
-.index-container img{
+.index-container img{ /*Nick T*/
   height: 100%;
 }
 
-/* nick */
-.index-container-text {
+.index-container-text { /*Nick T*/
   float: left;
   font-size: 30px;
 }
 
-/* nick */
-img.index-container-img {
+img.index-container-img { /*Nick T*/
   height: 300px;
   margin: auto;
 }
 
-/* nick */
-.index-clear {
+.index-clear { /*Nick T*/
   clear: both;
 }
 
-/* ----------------- topic page ---------------- */
+/* ----------------- Topic page ---------------- */
+.topic-container-body{}
 
-.topic-container-body{
-}
-
-/* nick */
-.topic-container-body h1{
+.topic-container-body h1{ /*Nick T*/
   font-size: 30px;
 }
 
-/* nick */
-.topic-container-body h2{
+.topic-container-body h2{ /*Nick T*/
   font-size: 23px;
 }
 
-/* nick */
-.apache-support-info-table{
+.apache-support-info-table{ /*Nick T*/
   border-collapse: collapse;
   position:relative;
   left:10px;
   min-width: 220px;
 }
 
-/* nick */
-.apache-support-info-table thead{
+.apache-support-info-table thead{ /*Nick T*/
   background-color: #00d5fd;
 }
 
-/* nick */
-.apache-support-info-table tbody tr{
+.apache-support-info-table tbody tr{ /*Nick T*/
  border-bottom: 1px solid gray;
  background-color: #e8e8e8;
 }
 
-/* nick */
-.topic-content {
+.topic-content { /*Nick T*/
   margin-bottom: 15px;
   border:solid;
   border-radius:10px;
   border-color:gray;
 }
 
-/* nick */
-.topic-aside {
+.topic-aside { /*Nick T*/
   width: 30%;
   float: right;
   overflow-wrap: anywhere;
@@ -215,57 +178,54 @@ footer {
   color: white;
 }
 
-.color_back { /*    chris */
+.color_back { /*Chris*/
 	background-color:rgb(250,255,250);
 }
 
-#color_textunder { /*chris*/
+#color_textunder { /*Chris*/
 	background-color:rgb(255,255,255);
 	/*border-style:rounded;*/
 }
 
-.footertopic { /*chris*/
+.footertopic { /*Chris*/
 	color:rgb(10,10,50);
 	position:relative;
 }
 
-.footersetter { /*chris*/
+.footersetter { /*Chris*/
 	color:rgb(10,10,50);
 	position:relative;
 	top:20px;
 	height:20px;
 }
 
-.declinegrowthtable {/*chris*/
-
+.declinegrowthtable { /*Chris*/
 	border:2px inset;
 	text-align:center;
 }
 
-.code { /*chris*/
+.code { /*Chris*/
 	position:relative;
 	left:20px;
-
 }
 
-.datalink {/*chris*/
+.datalink { /*Chris*/
 	color:rgb(0,0,20);
 }
 
-.header_topic{/*chris*/
+.header_topic{/*Chris*/
 	color:rgb(50,0,0);
 	font: Calibri 50px;
 	z-index:-5;
 }
 
-.header_offset { /*chris*/
+.header_offset { /*Chris*/
 	position:relative;
 	/*top:20px;*/
 	text-align:center;
-
 }
 
-.hyperlink_highlighter{/*chris*/
+.hyperlink_highlighter{ /*Chris*/
 	position:relative;
 	text-decoration:none;
 	border:solid;
@@ -274,25 +234,24 @@ footer {
 	border-radius:10px;
 	color:white;
 	background-color:rgb(240,240,255);
-
 }
 
-.hyperlink_highlighter:hover{/*chris*/
+.hyperlink_highlighter:hover{ /*Chris*/
 	border-color:rgb(240,240,255)
 }
 
-th.declinegrowthtable{ /*chris*/
+th.declinegrowthtable{ /*Chris*/
 	background-color:lightblue;
 }
 
-.hyperlink_highlighter:visited{/*chris*/
+.hyperlink_highlighter:visited{ /*Chris*/
 	position:relative;
 	left:0px;
 	background-color:rgb(230,230,255);
 	color:rgb(0,0,0);
 }
 
-.beyondsection {/*chris*/
+.beyondsection { /*Chris*/
 	background-color:white;
 	margin-right:400px;
 	margin-left:250px;
@@ -301,10 +260,9 @@ th.declinegrowthtable{ /*chris*/
 	position:relative;
 	left:80px;
 	padding:10px;
-	/*top:20px;*/
 }
 
-.beyondsection:hover{ /*chris*/
+.beyondsection:hover{ /*Chris*/
 	border-style:groove;
 }
 
@@ -356,15 +314,14 @@ img.index-bottom-image {
 #enhancements_header {
 	border:solid;
 	border-color:rgb(240,240,240);
-
 }
 
-/* Quiz */
-.quiz-legend-2 {
-  font-weight: 800;
+/* ----------------- Quiz page ---------------- */
+.quiz-legend {
   font-size:20px;
 }
 
-.quiz-legend {
+.quiz-legend-2 {
+  font-weight: 800;
   font-size:20px;
 }
