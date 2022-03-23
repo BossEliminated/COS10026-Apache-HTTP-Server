@@ -348,13 +348,12 @@ img.index-bottom-image {
   text-align: right;
 }
 
-
-
-
-
-
-
 /* Quiz */
+.quiz-legend-2 {
+  font-weight: 800;
+  font-size:20px;
+}
 
 .quiz-legend {
-  font-weight: 800;}
+  font-size:20px;
+}
