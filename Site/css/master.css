@@ -291,6 +291,7 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .beyondsection {/*chris*/
+	background-color:white;
 	margin-right:400px;
 	margin-left:250px;
 	border-style:ridge;
@@ -306,7 +307,9 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .enhancements_body {
+	background-color:white;
 	text-align:center;
+	overflow:hidden;
 }
 
 .ulchanges {
@@ -346,6 +349,12 @@ img.index-bottom-image {
 
 .index-container-text {
   text-align: right;
+}
+
+#enhancements_header {
+	border:solid;
+	border-color:rgb(240,240,240);
+
 }
 
 /* Quiz */
