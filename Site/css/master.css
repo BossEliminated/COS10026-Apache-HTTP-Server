@@ -295,17 +295,17 @@ th.declinegrowthtable{ /*chris*/
 
 .enhancements_body {
 	text-align:center;
-	
-	
 }
 
 .ulchanges {
 	list-style-position:inside;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  background-color: DodgerBlue;
+  background-color: rgb(212, 212, 212);
 }
 
 .flex-container > div {
