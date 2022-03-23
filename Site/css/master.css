@@ -336,8 +336,10 @@ th.declinegrowthtable{ /*chris*/
 img.index-bottom-image {
   width: auto;
   height: auto;
+}
 
+/* Quiz */
 
-
-
+.quiz-legend {
+  font-weight: 800;
 }
