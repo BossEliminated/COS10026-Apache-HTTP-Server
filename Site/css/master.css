@@ -107,8 +107,13 @@ hr{
 /* nick */
 .index-container-intro {
   text-align: center;
-  background-color: #dedede;
+  background: rgb(121,9,9);
+  background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(91,9,121,1) 76%, rgba(140,0,255,1) 100%);
   padding: 50px 0;
+}
+
+.index-container-intro h1 {
+  color: white;
 }
 
 .index-container-body {
