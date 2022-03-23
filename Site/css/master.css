@@ -51,21 +51,18 @@ header { /*Nick T*/
 
 .nav-links a { /*Nick T*/
   text-decoration: none;
-  color: white;
+  color: #616161;
 }
 
 .nav-links a { /* yash + nick */
-  background-color: #808080;
-  transition: background-color .5s;
   margin-right: 20px;
-  border-radius: 7px;
-  padding: 4px;
+  border-radius: 15px;
+  padding: 6px;
 }
 
 .nav-bar a:hover { /* yash + nick */
-  /* background-color: black; */
-
-  background-color: #0097bf73;
+  transition: background-color .5s;
+  background-color: #d6d9dc;
 }
 
 a.nav-bar-active { /*Nick T*/
