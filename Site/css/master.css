@@ -193,6 +193,8 @@ hr{
 /* nick */
 .topic-content {
   margin-bottom: 15px;
+  border:solid;
+  border-radius:10px;
 }
 
 /* nick */
