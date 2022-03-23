@@ -60,7 +60,7 @@
 				</figcaption>
 			</figure>
 			<h3>The competitors to Apache</h3>
-			<p>There are multiple other open source options available,however as TCP/IP protocols for communication are ideal for both users adhering to such protocols to communicate successfully, there are not many options that don't rely on the TCP/IP protocols due to their utilisation throughout the web. So the differences between the many similar technologies all differ in their ______</p>
+			<p>There are multiple other open source options available,however as TCP/IP protocols for communication are ideal for both users adhering to such protocols to communicate successfully, there are not many options that don't rely on the TCP/IP protocols due to their utilisation throughout the web. So the differences between the many similar technologies all differ in their stability, how and what data they store and security features however in essence both handle http requests and give replies back to clients.</p>
 
 			<h3>The future of Apache</h3>
 			<p>As Apache is maintained regularly, it appears to become a staple of web server technology and without reason of discontinuation as it is based on the layered protocols of TCP/IP which are utilised through the web, its usage is unlikely to ever drop off. The only threat to the use of Apache is its many competitors.</p>
