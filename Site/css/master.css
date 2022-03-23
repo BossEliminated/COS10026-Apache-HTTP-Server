@@ -1,4 +1,4 @@
-/* -------------------- Global -------------------- 
+/* -------------------- Global --------------------
 Authors:
 Purpose:
 
@@ -242,7 +242,7 @@ footer {
 }
 
 .declinegrowthtable {/*chris*/
-	
+
 	border:2px inset;
 	text-align:center;
 }
@@ -250,7 +250,7 @@ footer {
 .code { /*chris*/
 	position:relative;
 	left:20px;
-	
+
 }
 
 .datalink {/*chris*/
@@ -267,14 +267,14 @@ footer {
 	position:relative;
 	top:20px;
 	left:10px;
-	
+
 }
 
 .hyperlink_highlighter{/*chris*/
 	position:relative;
 	left:10px;
 	color:rgb(40,40,255);
-	
+
 }
 
 .hyperlink_highlighter:hover{/*chris*/
@@ -286,11 +286,11 @@ th.declinegrowthtable{ /*chris*/
 }
 
 .hyperlink_highlighter:visited{/*chris*/
-	
+
 	position:relative;
 	left:0px;
 	color:rgb(40,40,255);
-	
+
 }
 
 .beyondsection {/*chris*/
@@ -306,4 +306,17 @@ th.declinegrowthtable{ /*chris*/
 	border-style:groove;
 }
 
+.box1 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
 
+.box1 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
