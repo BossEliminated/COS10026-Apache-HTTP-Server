@@ -254,7 +254,7 @@ footer {
 .header_offset { /*chris*/
 	position:relative;
 	top:20px;
-	left:10px;
+	text-align:center;
 
 }
 
@@ -281,6 +281,7 @@ th.declinegrowthtable{ /*chris*/
 
 .beyondsection {/*chris*/
 	margin-right:400px;
+	margin-left:250px;
 	border-style:ridge;
 	border-width:10px;
 	position:relative;
@@ -292,6 +293,14 @@ th.declinegrowthtable{ /*chris*/
 	border-style:groove;
 }
 
+.enhancements_body {
+	text-align:center;
+	
+	
+}
+
+.ulchanges {
+	list-style-position:inside;
 .flex-container {
   display: flex;
   justify-content: center;
