@@ -1,7 +1,7 @@
 /*
 
-Authors:
-Purpose:
+Authors: Syed, Yashas, Nick, Chris, Rohit
+Purpose: Deliver our Apache server content in a manner that is easy and beautiful to read
 
 */
 
@@ -48,8 +48,10 @@ header {
 
 /* nick */
 .nav-bar img {
+  margin: 0 20px;
   width: 152px;
-  margin: 4px 20px;
+  height: 60px;
+  padding: 4px 0px;
 }
 
 /* nick */

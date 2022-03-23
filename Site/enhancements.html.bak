@@ -3,11 +3,11 @@
   <head>
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
-	
+
     <title>UIP</title>
   </head>
   <header class="nav-bar">
-    <img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo">
+    <a href="index.html"><img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo"></a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="topic.html">Info</a>
@@ -25,7 +25,7 @@
 						<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
 					<p>Placeholder Text</p>
 							<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
-						
+
 			</div><!-- Copy and paste section-->
 		<div class="colorsegment_mid">
 			<h2 class="header_offset">Code Implemented</h2>
@@ -44,7 +44,7 @@
 						<a class="hyperlink_highlighter" href="https://google.com">Reference_Placeholder</a>
 			</div>
 		<pre></pre>
-			
+
 
   </body>
   <footer class="footersetter">Members of our team:</footer>
