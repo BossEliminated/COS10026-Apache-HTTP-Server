@@ -195,6 +195,7 @@ hr{
   margin-bottom: 15px;
   border:solid;
   border-radius:10px;
+  border-color:gray;
 }
 
 /* nick */
@@ -304,6 +305,12 @@ th.declinegrowthtable{ /*chris*/
 
 .beyondsection:hover{ /*chris*/
 	border-style:groove;
+}
+
+.enhancements_body {
+	
+	
+	
 }
 
 

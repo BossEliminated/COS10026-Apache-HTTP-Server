@@ -94,7 +94,7 @@
 			<p>Even with just its <strong>core</strong> component <strong>without any extra</strong> modules allows the user to manage their connections in a specific manner related to delays, limits, and what to accept and decline.
 			</p>
 		</div>
-		<div>
+		<div class="topic-content">
 		</section>
 			<section class="section-information">
 			<h2>Apache Request Management</h2>
@@ -159,7 +159,7 @@
 		<h3>Definition Reference List</h3>
 		<ul>
 			<p><sub><a href="https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/">https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please/</a></p></sub>
-		<div class="popularity-list">
+		<div class="popularity-list" id="popularity-list">
 		<h4>Table Data</h4>
 			<ul>
 				<sub><li><p><a href="https://news.netcraft.com/archives/category/web-server-survey/">https://news.netcraft.com/archives/category/web-server-survey/</a></p></li>
