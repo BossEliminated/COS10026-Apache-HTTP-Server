@@ -1,198 +1,165 @@
 /*
-
-Authors:
-Purpose:
-
+Authors: Syed, Yashas, Nick, Chris, Rohit
+Purpose: Deliver our Apache server content in a manner that is easy and beautiful to read
 */
 
 /* -------------------- Global -------------------- */
-
-/* nick */
-body {
+body { /*Nick T*/
   /* removes body default margin */
   background: gainsboro;
   margin: 0px;
 }
 
-/* nick */
-*, *::after, *::before {
+*, *::after, *::before { /*Nick T*/
   /* sets the total width and height of an element to include border and padding */
   box-sizing: border-box;
 }
 
-/* nick */
-html {
+html { /*Nick T*/
   /* font stack */
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
-/* nick */
-p,a,h1,h2 {
+p,a,h1,h2 { /*Nick T*/
   /* remove deafult margin */
   margin: 0px;
   /* set deafult colour */
   color: black;
 }
 
-/* -------------------- Global -------------------- */
+.separator { /*Nick T*/
+  border: none;
+  background: #d5d5d5;
+  height: 2px;
+  margin: 0px;
+}
 
-/* -------------------- nav bar --------------------- */
-
-/* nick */
-header {
+/* -------------------- Navbar --------------------- */
+header { /*Nick T*/
   background: #ffffff;
   display: flex;
   height: 60px;
   font-size: 22px;
 }
 
-/* nick */
-.nav-bar img {
+.nav-bar img { /*Nick T*/
+  margin: 0 20px;
   width: 152px;
-  margin: 4px 20px;
+  height: 60px;
+  padding: 4px 0px;
 }
 
-/* nick */
-.nav-links {
+.nav-links { /*Nick T*/
   text-decoration: none;
   align-items: center;
   display: flex;
   margin-left: 17px;
 }
 
-/* nick */
-.nav-links a {
+.nav-links a { /*Nick T*/
   text-decoration: none;
-  color: white;
+  color: #616161;
 }
 
-/* yash + nick */
-.nav-links a {
-  background-color: #808080;
-  transition: background-color .5s;
+.nav-links a { /* yash + nick */
   margin-right: 20px;
-  border-radius: 7px;
-  padding: 4px;
+  border-radius: 15px;
+  padding: 6px;
 }
 
-/* yash + nick */
-.nav-bar a:hover {
-  /* background-color: black; */
-
-  background-color: #0097bf73;
+.nav-bar a:hover { /* yash + nick */
+  transition: background-color .5s;
+  background-color: #d6d9dc;
 }
 
-/* nick */
-a.nav-bar-active {
+a.nav-bar-active { /*Nick T*/
   text-decoration: underline;
 }
 
-/* nick */
-hr{
+hr{ /*Nick T*/
   border: none;
   height: 2px;
   background-color: black;
 }
 
-/* nick */
-.container{
-  width: 95%;
-  margin-left: 5%;
-  max-width: 1000px;
-  margin-top: 20px;
-}
-
-/* ----------------- index page ----------------- */
-
-/* nick */
-.index-container-intro {
+/* ----------------- Index page ----------------- */
+.index-container-intro { /*Nick T*/
   text-align: center;
-  background: rgb(121,9,9);
+  background: rgb(191 0 0);
   background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(91,9,121,1) 76%, rgba(140,0,255,1) 100%);
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .index-container-intro h1 {
   color: white;
+  margin-bottom: 20px;
 }
 
-.index-container-body {
+.index-container-body {}
 
-}
-
-/* nick */
-.index-container {
+.index-container { /*Nick T*/
   margin: 20px auto;
   width: 70%;
   height: 100px;
 }
 
-/* nick */
-.index-container img{
+.index-container img{ /*Nick T*/
   height: 100%;
 }
 
-/* nick */
-.index-container-text {
+.index-container-text { /*Nick T*/
   float: left;
   font-size: 30px;
 }
 
-/* nick */
-img.index-container-img {
+img.index-container-img { /*Nick T*/
   height: 300px;
   margin: auto;
 }
 
-/* nick */
-.index-clear {
-  clear: both;
+/* ----------------- Topic page ---------------- */
+.topic-background { /*Chris + Nick T*/
+  background: #004167;
+  background: linear-gradient(180deg, rgba(53,103,134,1) 0%, rgba(25,78,109,1) 47%, rgba(0,58,92,1) 100%);
+  background-attachment: fixed;
 }
 
-/* ----------------- topic page ---------------- */
-
-.topic-container-body{
+.topic-main-container{ /*Nick T*/
+  margin: 0 70px;
+  max-width: 1000px;
 }
 
-/* nick */
-.topic-container-body h1{
-  font-size: 30px;
-}
-
-/* nick */
-.topic-container-body h2{
+.topic-body h2{ /*Nick T*/
   font-size: 23px;
 }
 
-/* nick */
-.apache-support-info-table{
+.apache-support-info-table{ /*Nick T*/
   border-collapse: collapse;
   position:relative;
   left:10px;
   min-width: 220px;
 }
 
-/* nick */
-.apache-support-info-table thead{
+.apache-support-info-table thead{ /*Nick T*/
   background-color: #00d5fd;
 }
 
-/* nick */
-.apache-support-info-table tbody tr{
+.apache-support-info-table tbody tr{ /*Nick T*/
  border-bottom: 1px solid gray;
  background-color: #e8e8e8;
 }
 
-/* nick */
-.topic-content {
+.topic-content { /*Nick T*/
   margin-bottom: 15px;
   border:solid;
   border-radius:10px;
-  border-color:gray;
+  border-color: gray;
+  margin: 40px auto;
+  padding: 10px;
+  background: #a9a9a9;
 }
 
-/* nick */
-.topic-aside {
+.topic-aside { /*Nick T*/
   width: 30%;
   float: right;
   overflow-wrap: anywhere;
@@ -203,113 +170,39 @@ img.index-container-img {
   border: 1px solid;
 }
 
-footer {
-  font-style: italic;
-  bottom:0;
-  width:100%;
-  text-align: center;
-  padding: 1px;
-  background-color: #808080;
-  color: white;
-}
-
-.color_back { /*    chris */
-	background-color:rgb(250,255,250);
-}
-
-#color_textunder { /*chris*/
-	background-color:rgb(255,255,255);
-	/*border-style:rounded;*/
-}
-
-.footertopic { /*chris*/
+.footertopic { /*Chris*/
 	color:rgb(10,10,50);
 	position:relative;
 }
 
-.footersetter { /*chris*/
+.footersetter { /*Chris*/
 	color:rgb(10,10,50);
 	position:relative;
 	top:20px;
 	height:20px;
 }
 
-.declinegrowthtable {/*chris*/
-
+.declinegrowthtable { /*Chris*/
 	border:2px inset;
 	text-align:center;
 }
 
-.code { /*chris*/
+.code { /*Chris*/
 	position:relative;
 	left:20px;
-
 }
 
-.datalink {/*chris*/
+.datalink { /*Chris*/
 	color:rgb(0,0,20);
 }
 
-.header_topic{/*chris*/
-	color:rgb(50,0,0);
-	font: Calibri 50px;
-	z-index:-5;
-}
-
-.header_offset { /*chris*/
-	position:relative;
-	/*top:20px;*/
-	text-align:center;
-
-}
-
-.hyperlink_highlighter{/*chris*/
-	position:relative;
-	text-decoration:none;
-	border:solid;
-	border-color:rgb(250,250,255);
-	border-width:2px;
-	border-radius:10px;
-	color:white;
-	background-color:rgb(240,240,255);
-
-}
-
-.hyperlink_highlighter:hover{/*chris*/
-	border-color:rgb(240,240,255)
-}
-
-th.declinegrowthtable{ /*chris*/
+th.declinegrowthtable{ /*Chris*/
 	background-color:lightblue;
 }
 
-.hyperlink_highlighter:visited{/*chris*/
-	position:relative;
-	left:0px;
-	background-color:rgb(230,230,255);
-	color:rgb(0,0,0);
-}
 
-.beyondsection {/*chris*/
-	background-color:white;
-	margin-right:400px;
-	margin-left:250px;
-	border-style:ridge;
-	border-width:10px;
-	position:relative;
-	left:80px;
-	padding:10px;
-	/*top:20px;*/
-}
-
-.beyondsection:hover{ /*chris*/
+.beyondsection:hover{ /*Chris*/
 	border-style:groove;
-}
-
-.enhancements_body {
-	background-color:white;
-	text-align:center;
-	overflow:hidden;
 }
 
 .ulchanges {
@@ -332,21 +225,96 @@ th.declinegrowthtable{ /*chris*/
   padding: 15px;
 }
 
-.colorsegment_mid {
-	background-color:rgb(248,248,248);
+img.index-bottom-image {
+  float: left;
 }
 
-img.index-bottom-image {
-  width: auto;
-  height: auto;
+.ee {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  font-size: 5ch
+}
 
-
-
-
+.index-container-text {
+  text-align: right;
 }
 
 #enhancements_header {
 	border:solid;
 	border-color:rgb(240,240,240);
-	
+}
+
+/* ----------------- Quiz page ---------------- */
+.quiz-legend {
+  font-size:20px;
+}
+
+.quiz-legend-2 {
+  font-weight: 800;
+  font-size:20px;
+}
+
+/* ----------------- Footer ---------------- */
+
+footer {
+  font-style: italic;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding: 1px;
+  background-color: #808080;
+  color: white;
+  clear: both;
+}
+
+
+/* --------------------- Enhancements Page ------------------------*/
+.segment_enhancements {
+	background-color:rgb(248,248,248);
+}
+
+
+.hyperlink_highlighter{ /*Chris*/
+	position:relative;
+	text-decoration:none;
+	border:solid;
+	border-color:rgb(250,250,255);
+	border-width:2px;
+	border-radius:10px;
+	color:white;
+	background-color:rgb(120,120,205);
+}
+
+.enhancements_body {
+	background-color:white;
+	text-align:center;
+	overflow:hidden;
+}
+
+.hyperlink_highlighter:visited{ /*Chris*/
+	position:relative;
+	left:0px;
+	color:rgb(249,240,255);
+}
+
+.beyondsection { /*Chris*/
+	background-color:white;
+	margin-right:300px;
+	margin-left:150px;
+	border-style:ridge;
+	border-width:10px;
+	position:relative;
+	left:80px;
+	padding:10px;
+}
+
+.header_offset { /*Chris*/
+	position:relative;
+	/*top:20px;*/
+	text-align:center;
+}
+
+.hyperlink_highlighter:hover{ /*Chris*/
+	border-color:rgb(220,220,255)
 }

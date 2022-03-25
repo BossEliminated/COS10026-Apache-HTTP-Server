@@ -3,49 +3,50 @@
   <head>
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
-
-    <title>UIP</title>
+    <title>Enhancements</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Apache details and facts">
+    <meta name="keywords" content="Apache, info, details, facts, server">
+    <meta name="author" content="A Patchy Team">
   </head>
   <header class="nav-bar">
     <a href="index.html"><img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo"></a>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="topic.html">Info</a>
+      <a href="topic.html">Topic</a>
       <a href="quiz.html">Quiz</a>
       <a class="nav-bar-active" href="enhancements.html">Enhancements</a>
     </div>
   </header>
   <body class="enhancements_body">
-	<h1 id="enhancements_header">Enhancements</h1>
-	  <hr>
-	  	<h2 class="header_offset">Going Beyond the Basic Standards of the Project</h2>
-			<div class="beyondsection"><!-- Copy and paste section-->
+    <h1 id="enhancements_header">Enhancements</h1>
+    <h2 class="header_offset">Going Beyond the Basic Standards of the Project</h2>
+    <section class="beyondsection">
+      <h3>Placeholder_Name</h3>
+      <p>Placeholder Text</p>
+      <a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
+      <p>Placeholder Text</p>
+      <a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
+    </section>
+    <div class="segment_enhancements">
+      <h2 class="header_offset">Code Implemented</h2>
+      <section class="beyondsection">
+        <h3>Placeholder_Name</h3>
+        <p>Placeholder_Text</p>
+        <code class="declinegrowthtable">Placeholder Code</code>
+        <p>Placeholder_Text</p>
+        <code class="declinegrowthtable">Placeholder Code</code>
+      </section>
+    </div>
+	<div class="segment_enhancements">
+      <h2 class="header_offset">Third Party References</h2>
+			<section class="beyondsection">
 				<h3>Placeholder_Name</h3>
-					<p>Placeholder Text</p>
-						<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
-					<p>Placeholder Text</p>
-							<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
-
-			</div><!-- Copy and paste section-->
-		<div class="colorsegment_mid">
-			<h2 class="header_offset">Code Implemented</h2>
-				<div class="beyondsection">
-					<h3>Placeholder_Name</h3>
-						<p>Placeholder_Text</p> <!-- you could probably use href to link down here-->
-							<code class="declinegrowthtable">Placeholder Code</code>
-						<p>Placeholder_Text</p>
-							<code class="declinegrowthtable">Placeholder Code</code>
-				</div>
-		</div>
-		<h2 class="header_offset">Third Party References</h2>
-			<div class="beyondsection">
-				<h3>Placeholder_Name</h3>
-					<p>Placeholder_Text</p> <!-- you could probably use href to link down here-->
-						<a class="hyperlink_highlighter" href="https://google.com">Reference_Placeholder</a>
-			</div>
-		<pre></pre>
-
-
+				<p>Placeholder_Text</p>
+				<a class="hyperlink_highlighter" href="https://google.com">Reference_Placeholder</a>
+			</section>
+	</div>
+    <pre></pre>
   </body>
   <footer class="footersetter">Members of our team:</footer>
 </html>
