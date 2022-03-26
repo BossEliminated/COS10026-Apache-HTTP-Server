@@ -289,7 +289,7 @@ footer {
 }
 
 .enhancements_body {
-	background-color:white;
+	background-color:rgb(250,0,0);
 	text-align:center;
 }
 
@@ -334,4 +334,8 @@ footer {
 	0% {background-color:rgba(239,231,120,0.5);}
 	50% {background-color:rgba(239,231,120,0.6);}
 	100% {background-color:rgba(239,231,120,0.5);}
+}
+
+@keyframes topic_enhancements {
+	
 }
