@@ -312,7 +312,8 @@ footer {
 
 .header_offset { /*Chris*/
 	position:relative;
-	background:rgba(147,89,13	,0.5);
+	/*background:rgba(239,231,120,0.5);*/
+	animation:animation_enhancements 10s infinite;
 	color:black;
 	/*top:20px;*/
 	text-align:center;
@@ -327,4 +328,14 @@ footer {
 	color:white;
 	background-image: linear-gradient(to right, rgb(239,231,120), rgb(3,201,38));
 	border-color:rgb(240,240,240);
+}
+
+@keyframes animation_enhancements{ /*chris*/
+	0% {background-color:rgba(239,231,120,0.5);}
+	50% {background-color:rgba(239,231,120,0.6);}
+	100% {background-color:rgba(239,231,120,0.5);}
+}
+
+@keyframes topic_enhancements {
+	
 }
