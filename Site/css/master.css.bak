@@ -289,7 +289,7 @@ footer {
 }
 
 .enhancements_body {
-	background-color:rgb(250,0,0);
+	background-color:rgb(225,251,226)
 	text-align:center;
 }
 
