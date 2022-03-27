@@ -12,10 +12,10 @@
   <header class="nav-bar">
     <a href="index.html"><img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo"></a>
     <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="topic.html">Topic</a>
-      <a href="quiz.html" class="tooltip_management">Quiz</a><p class="content_tip">Test your knowledge.</p>
-      <a class="nav-bar-active" href="enhancements.html">Enhancements</a>
+      <div><a href="index.html">Home</a></div>
+      <div><a href="topic.html" class="tooltip_management">Topic</a><p class="content_tip">Do you know your stuff?</p></div>
+      <div><a href="quiz.html" class="tooltip_management">Quiz</a><p class="content_tip">Do you know your stuff?</p></div>
+      <div><a class="nav-bar-active" href="enhancements.html">Enhancements</a></div>
     </div>
   </header>
   <body class="enhancements_body">

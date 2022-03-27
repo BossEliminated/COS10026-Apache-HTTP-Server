@@ -341,21 +341,21 @@ footer {
 }
 
 .content_tip{
-	content:" ";
+	font-size:18px;
 	visibility:hidden;
 	position:absolute;
 	text-align:center;
-	top:10%;
-	left:25%;
+	top:50px;
+	left:10em;
 	background-color:rgba(0,0,0,0.5);
 	border-radius:10px;
 	color:white;
 }
 
 .content_tip::after{
-	content:" ";
+	content:"";
 	position:absolute;
-	bottom:96%;
+	bottom:95%;
 	width:4em;
 	left:28%;
 	border-style:solid;
