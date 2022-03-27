@@ -289,7 +289,7 @@ footer {
 }
 
 .enhancements_body {
-	background-color:rgb(225,251,226)
+	background-color:rgb(225,251,226);
 	text-align:center;
 }
 
@@ -336,6 +336,39 @@ footer {
 	100% {background-color:rgba(239,231,120,0.5);}
 }
 
-@keyframes topic_enhancements {
-	
+.tooltip_management{
+	position:relative;
 }
+
+.content_tip{
+	content:" ";
+	visibility:hidden;
+	position:absolute;
+	text-align:center;
+	top:10%;
+	left:25%;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:10px;
+	color:white;
+}
+
+.content_tip::after{
+	content:" ";
+	position:absolute;
+	bottom:96%;
+	width:4em;
+	left:28%;
+	border-style:solid;
+	border-radius:10px;
+	border-top-width:5px;
+	border-top-left-radius:90px;
+	border-top-right-radius:90px;
+	border-color:rgba(0,0,0,0.5);
+}
+
+.tooltip_management:hover + p{
+	visibility:visible;
+}
+
+
+
