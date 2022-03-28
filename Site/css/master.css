@@ -345,8 +345,9 @@ footer {
 	visibility:hidden;
 	position:absolute;
 	text-align:center;
-	top:50px;
-	left:20em;
+	top:35px;
+	right:1.1em;
+	width:10em;
 	background-color:rgba(0,0,0,0.5);
 	border-radius:10px;
 	color:white;
@@ -355,9 +356,9 @@ footer {
 .content_tip::after{
 	content:"";
 	position:absolute;
-	bottom:95%;
-	width:4em;
-	left:28%;
+	bottom:97%;
+	width:1em;
+	left:7em;
 	border-style:solid;
 	border-radius:10px;
 	border-top-width:5px;

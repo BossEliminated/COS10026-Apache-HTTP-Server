@@ -12,10 +12,10 @@
   <header class="nav-bar">
     <a href="index.html"><img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo"></a>
     <div class="nav-links">
-      <div><a href="index.html">Home</a></div>
-      <div><a href="topic.html" class="tooltip_management">Topic</a><p class="content_tip">Do you know your stuff?</p></div>
-      <div><a href="quiz.html" class="tooltip_management">Quiz</a><p class="content_tip">Do you know your stuff?</p></div>
-      <div><a class="nav-bar-active" href="enhancements.html">Enhancements</a></div>
+      <div class="tooltip_management"><a href="index.html">Home</a></div>
+      <div class="tooltip_management"><a href="topic.html" class="tooltip_management">Topic</a><p class="content_tip">General Information</p></div>
+      <div class="tooltip_management"><a href="quiz.html" class="tooltip_management">Quiz</a><p class="content_tip">Do you know your stuff?</p></div>
+      <div class="tooltip_management"><a class="nav-bar-active" href="enhancements.html">Enhancements</a></div>
     </div>
   </header>
   <body class="enhancements_body">
@@ -30,10 +30,8 @@
 				<p class="paragraph_mover">Placeholder Text</p>
 					<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
 			<h3>Christopher Thompson</h3>
-				<p class="paragraph_mover">Utilisation of tool tips to provide further information on the website to those utilising it.</p>
-					<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
-				<p class="paragraph_mover">Placeholder Text</p>
-					<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Link of Page</a>
+				<p class="paragraph_mover">Utilisation of tool tips to provide further information on the website to those utilising it. On the navigation bar, tooltips appear on all pages.</p>
+					<a class="hyperlink_highlighter" href="topic.html#HTTP_DEF">Topic Page</a><a class="hyperlink_highlighter" href="quiz.html#HTTP_DEF">Quizs Page</a><a class="hyperlink_highlighter" href="index.html">Index Page</a>
 		</section>
 	</div>
     <div class="segment_enhancements">
