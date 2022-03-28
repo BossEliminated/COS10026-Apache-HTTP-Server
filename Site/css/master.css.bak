@@ -300,6 +300,7 @@ footer {
 }
 
 .beyondsection { /*Chris*/
+	min-width:900px;
 	background-color:white;
 	margin-right:300px;
 	margin-left:150px;
@@ -340,7 +341,7 @@ footer {
 	position:relative;
 }
 
-.content_tip{
+.content_tip{ /*chris*/
 	font-size:18px;
 	visibility:hidden;
 	position:absolute;
@@ -353,12 +354,12 @@ footer {
 	color:white;
 }
 
-.content_tip::after{
+.content_tip::after{ /*chris*/
 	content:"";
 	position:absolute;
 	bottom:97%;
 	width:1em;
-	left:9em;
+	left:7em;
 	border-style:solid;
 	border-radius:10px;
 	border-top-width:5px;
