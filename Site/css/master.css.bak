@@ -300,7 +300,7 @@ footer {
 }
 
 .beyondsection { /*Chris*/
-	min-width:900px;
+	min-width:200px;
 	background-color:white;
 	margin-right:300px;
 	margin-left:150px;
@@ -370,6 +370,18 @@ footer {
 
 .tooltip_management:hover + p{
 	visibility:visible;
+}
+
+#defaultimg {
+	
+}
+
+#changeimghover:hover{
+	display:none;
+}
+
+#changeimghover:hover + img{
+	display:block;
 }
 
 

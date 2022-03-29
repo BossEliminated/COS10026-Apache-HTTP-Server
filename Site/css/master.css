@@ -372,5 +372,17 @@ footer {
 	visibility:visible;
 }
 
+#defaultimg {
+	display:none;
+}
+
+#changeimghover:hover{
+	display:none;
+}
+
+#changeimghover:hover + img{
+	display:block;
+}
+
 
 
