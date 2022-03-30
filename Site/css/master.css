@@ -107,12 +107,6 @@ hr{ /*Nick T*/
   height: 100%;
 }
 
-.index-container-text { /*Nick T*/
-  float: left;
-  font-size: 30px;
-  text-align: center;
-}
-
 img.index-container-img { /*Nick T*/
   height: 300px;
   margin: auto;
@@ -234,7 +228,8 @@ img.index-bottom-image {
 }
 
 .index-container-text {
-  text-align: right;
+  text-align: center;
+  display: inline-block;
 }
 
 /* ----------------- Quiz page ---------------- */
