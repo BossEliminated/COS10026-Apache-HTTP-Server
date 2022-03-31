@@ -232,6 +232,13 @@ img.index-bottom-image {
   font-size: 5ch
 }
 
+.rightflxbx {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  font-size: 5ch
+}
+
 .index-container-text {
   text-align: center;
   display: inline-block;
@@ -390,7 +397,5 @@ footer {
 }
 
 #figure_fixer_flow {
-	
+
 }
-
-
