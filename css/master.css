@@ -27,13 +27,6 @@ p,a,h1,h2 { /*Nick T*/
   color: black;
 }
 
-.separator { /*Nick T*/
-  border: none;
-  background: #d5d5d5;
-  height: 2px;
-  margin: 0px;
-}
-
 .content_tip { /*Chris, Nick T*/
 	font-size: 18px;
 	visibility: hidden;
@@ -157,10 +150,6 @@ hr{ /*Nick T*/
 img.index-container-img { /*Nick T*/
   height: 300px;
   margin: auto;
-}
-
-.index-footer {
-  /* background-color: white; */
 }
 
 /* ----------------- Topic page ---------------- */
