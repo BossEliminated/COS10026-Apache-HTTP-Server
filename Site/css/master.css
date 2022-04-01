@@ -216,18 +216,6 @@ img.index-container-img { /*Nick T*/
   border: 1px solid;
 }
 
-.footertopic { /*Chris*/
-	color:rgb(10,10,50);
-	position:relative;
-}
-
-.footersetter { /*Chris*/
-	color:rgb(10,10,50);
-	position:relative;
-	top:20px;
-	height:20px;
-}
-
 #selectivetabletopic {
 	border:2px inset;
 }
@@ -321,15 +309,12 @@ img.index-bottom-image {
 
 footer {
   font-style: italic;
-  bottom:0;
-  width:100%;
   text-align: center;
   padding: 1px;
   background-color: #808080;
-  color: white;
   clear: both;
+  padding: 5px 0;
 }
-
 
 /* --------------------- Enhancements Page ------------------------*/
 
