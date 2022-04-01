@@ -112,7 +112,7 @@ p,a,h1,h2 { /*Nick T*/
   text-decoration: underline;
 }
 
-hr{ /*Nick T*/
+hr { /*Nick T*/
   border: none;
   height: 2px;
   background-color: black;
@@ -143,7 +143,7 @@ hr{ /*Nick T*/
   margin: 0px auto;
 }
 
-.index-container img{ /*Nick T*/
+.index-container img { /*Nick T*/
   height: 100%;
 }
 
@@ -194,7 +194,7 @@ img.index-bottom-image {
   background-attachment: fixed;
 }
 
-.topic-content-left{ /*Nick T*/
+.topic-content-left { /*Nick T*/
   float: left;
   width: 70%;
 }
@@ -213,22 +213,22 @@ img.index-bottom-image {
   font-size: 15px;
 }
 
-.topic-body h2{ /*Nick T*/
+.topic-body h2 { /*Nick T*/
   font-size: 23px;
 }
 
-.apache-support-info-table{ /*Nick T*/
+.apache-support-info-table { /*Nick T*/
   border-collapse: collapse;
   position:relative;
-  left:10px;
   min-width: 220px;
+  margin-top: 10px;
 }
 
-.apache-support-info-table thead{ /*Nick T*/
+.apache-support-info-table thead { /*Nick T*/
   background-color: #00d5fd;
 }
 
-.apache-support-info-table tbody tr{ /*Nick T*/
+.apache-support-info-table tbody tr { /*Nick T*/
  border-bottom: 1px solid gray;
  background-color: #e8e8e8;
 }
@@ -265,6 +265,7 @@ th.declinegrowthtable{ /*Chris*/
   background-color: #e0e0e0;
   border-radius: 10px 0px 0px 10px;
   border: 5px solid #00afb7;
+  border-right: 0px;
 }
 
 .topic-aside-table-1 { /*Nick T*/
@@ -277,6 +278,19 @@ th.declinegrowthtable{ /*Chris*/
   padding: 0px;
   margin: 0px;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 704px) { /*Nick T*/
+  .topic-aside {
+    float: none;
+    width: 90%;
+    border-right: 5px solid #00afb7;
+    border-radius: 10px;
+  }
+  .topic-content-left {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* ----------------- Quiz page ---------------- */
