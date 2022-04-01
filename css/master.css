@@ -64,13 +64,13 @@ p,a,h1,h2 { /*Nick T*/
   gap: 10px;
 }
 
-@media only screen and (max-width: 704px) {
+@media only screen and (max-width: 704px) { /*Nick T*/
   .nav-bar {
     justify-content: center;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 430px) { /*Nick T*/
   .nav-bar {
     flex-direction: column;
     align-items: center;
@@ -152,6 +152,41 @@ img.index-container-img { /*Nick T*/
   margin: auto;
 }
 
+.index-flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.index-flex-container > div {
+  background-color: #e6e6e6;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.1ch;
+  padding: 15px;
+  width: 50%;
+  max-width: 425px;
+}
+
+@media only screen and (max-width: 430px) { /*Nick T*/
+  .index-flex-container {
+    flex-direction: column;
+  }
+  .index-flex-container > div {
+    width: auto;
+  }
+}
+
+.box-index h2 {
+  margin-bottom: 10px;
+}
+
+img.index-bottom-image {
+  float: left;
+  width: 100%;
+}
+
 /* ----------------- Topic page ---------------- */
 .topic-background { /*Chris + Nick T*/
   background: #004167;
@@ -159,9 +194,23 @@ img.index-container-img { /*Nick T*/
   background-attachment: fixed;
 }
 
-.topic-main-container{ /*Nick T*/
-  margin: 0 70px;
-  max-width: 1000px;
+.topic-content-left{ /*Nick T*/
+  float: left;
+  width: 70%;
+}
+
+.topic-content { /*Nick T*/
+  border:solid;
+  border-radius:10px;
+  border-color: gray;
+  margin: 40px auto;
+  padding: 10px;
+  background: #a9a9a9;
+  width: 90%;
+}
+
+.topic-content h2 { /*Nick T*/
+  font-size: 15px;
 }
 
 .topic-body h2{ /*Nick T*/
@@ -182,27 +231,6 @@ img.index-container-img { /*Nick T*/
 .apache-support-info-table tbody tr{ /*Nick T*/
  border-bottom: 1px solid gray;
  background-color: #e8e8e8;
-}
-
-.topic-content { /*Nick T*/
-  margin-bottom: 15px;
-  border:solid;
-  border-radius:10px;
-  border-color: gray;
-  margin: 40px auto;
-  padding: 10px;
-  background: #a9a9a9;
-}
-
-.topic-aside { /*Nick T*/
-  width: 30%;
-  float: right;
-  overflow-wrap: anywhere;
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid;
 }
 
 #selectivetabletopic {
@@ -230,58 +258,25 @@ th.declinegrowthtable{ /*Chris*/
 	list-style-position:inside;
 }
 
-.index-flex-container {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  padding-bottom: 40px;
+.topic-aside { /*Nick T*/
+  width: 30%;
+  float: right;
+  overflow-wrap: anywhere;
+  background-color: #e0e0e0;
+  border-radius: 10px 0px 0px 10px;
+  border: 5px solid #00afb7;
 }
 
-.index-flex-container > div {
-  background-color: #e6e6e6;
-  margin: 10px;
-  text-align: center;
-  font-size: 1.1ch;
-  padding: 15px;
-  width: 50%;
-  max-width: 425px;
+.topic-aside-table-1 { /*Nick T*/
+  padding: 0px;
+  margin: 10px 0px;
+  margin-left: 20px;
 }
 
-@media only screen and (max-width: 430px) {
-  .index-flex-container {
-    flex-direction: column;
-  }
-  .index-flex-container > div {
-    width: auto;
-  }
-}
-
-.box-index h2 {
-  margin-bottom: 10px;
-}
-
-img.index-bottom-image {
-  float: left;
-  width: 100%;
-}
-
-.ee {
-  font-style: italic;
-  color: red;
-  font-weight: bold;
-  font-size: 5ch
-}
-
-.rightflxbx {
-  font-style: italic;
-  color: red;
-  font-weight: bold;
-  font-size: 5ch
-}
-
-.index-container-text {
-  text-align: center;
-  display: inline-block;
+.topic-aside-table-2 { /*Nick T*/
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
 }
 
 /* ----------------- Quiz page ---------------- */
@@ -384,9 +379,12 @@ footer {
 	100% {background-color:rgba(239,231,120,0.5);}
 }
 
+.figure_fixer_flow {
+  font-size: 0px;
+}
+
 #defaultimg {
 	display:none;
-	object-fit:fill;
 }
 
 #changeimghover:hover{
@@ -395,9 +393,4 @@ footer {
 
 #changeimghover:hover + img{
 	display:block;
-
-}
-
-#figure_fixer_flow {
-
 }
