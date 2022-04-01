@@ -27,9 +27,9 @@ p,a,h1,h2 { /*Nick T*/
   color: black;
 }
 
-.content_tip { /*Chris, Nick T*/
+.tooltip { /*Chris, Nick T*/
 	font-size: 18px;
-	visibility: hidden;
+  display: none;
   position: absolute;
 	text-align: center;
 	width: 10em;
@@ -40,7 +40,7 @@ p,a,h1,h2 { /*Nick T*/
   transform: translateY(22px);
 }
 
-.content_tip::after { /*Chris, Nick T*/
+.tooltip::after { /*Chris, Nick T*/
   content: "";
   position: absolute;
   width: 1em;
@@ -52,7 +52,7 @@ p,a,h1,h2 { /*Nick T*/
 }
 
 .show-tooltip:hover + p { /*Chris, Nick T*/
-	visibility:visible;
+  display: block;
 }
 
 /* -------------------- Navbar --------------------- */
