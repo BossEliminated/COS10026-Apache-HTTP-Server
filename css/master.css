@@ -84,6 +84,9 @@ p,a,h1,h2 { /*Nick T*/
   width: 152px;
   height: 60px;
   padding: 4px 0px;
+
+  /* Removes invisible spacing under nav image */
+  display: block;
 }
 
 .nav-bar > div {
