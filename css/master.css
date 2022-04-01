@@ -84,9 +84,12 @@ p,a,h1,h2 { /*Nick T*/
   width: 152px;
   height: 60px;
   padding: 4px 0px;
+}
 
-  /* Removes invisible spacing under nav image */
-  display: block;
+.nav-bar > a {
+  /* Removes invisible spacing of inline element under nav image */
+  /* Could also use display block on nav image */
+  font-size: 0px;
 }
 
 .nav-bar > div {
