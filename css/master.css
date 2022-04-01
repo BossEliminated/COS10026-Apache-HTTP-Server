@@ -395,6 +395,11 @@ footer {
 
 .figure_fixer_flow {
   font-size: 0px;
+  padding: 10px 0;
+}
+
+.figure_fixer_flow img {
+  max-width: 100%;
 }
 
 #defaultimg {
