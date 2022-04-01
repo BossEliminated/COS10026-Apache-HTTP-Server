@@ -11,12 +11,19 @@
   </head>
   <header class="nav-bar">
     <a href="index.html"><img src="img/Apache_HTTP_server_logo_(2019-present).svg.png" alt="apache logo"></a>
-    <div class="nav-links">
-      <div class="tooltip_management"><a href="index.html">Home</a></div>
-      <div class="tooltip_management"><a href="topic.html" class="tooltip_management">Topic</a><p class="content_tip">General Information</p></div>
-      <div class="tooltip_management"><a href="quiz.html" class="tooltip_management">Quiz</a><p class="content_tip">Do you know your stuff?</p></div>
-      <div class="tooltip_management"><a class="nav-bar-active" href="enhancements.html">Enhancements</a></div>
-    </div>
+      <div><a href="index.html">Home</a></div>
+      <div>
+        <a class="show-tooltip" href="topic.html">Topic</a>
+        <p class="content_tip">Information about Apache Web Server</p>
+      </div>
+      <div>
+        <a class="show-tooltip" href="quiz.html">Quiz</a>
+        <p class="content_tip">Questions for you to answer</p>
+      </div>
+      <div>
+        <a id="nav-bar-active" class="show-tooltip" href="enhancements.html">Enhancements</a>
+        <p class="content_tip">Special changes to the website</p>
+      </div>
   </header>
   <body class="enhancements_body">
 	<h1 class="enhancements_header">Enhancements</h1>
@@ -42,7 +49,7 @@
         <code class="declinegrowthtable">Placeholder Code</code>
         <p>Placeholder_Text</p>
         <code class="declinegrowthtable">Placeholder Code</code>
-		
+
         <h3>Tooltips</h3>
         <p>The background of text</p>
         <code class="declinegrowthtable"><span>.content_tip{
@@ -56,7 +63,7 @@
 			background-color:rgba(0,0,0,0.5);
 			border-radius:10px;
 			color:white;
-	
+
 }</span></code>
         <p>Making tooltip appear, all paragraphs after class hover objects, appear. Paragraph element holds the content tip class which is hidden by default.</p>
         <code class="declinegrowthtable">.tooltip_management:hover + p{

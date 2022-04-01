@@ -68,6 +68,22 @@ p,a,h1,h2 { /*Nick T*/
   display: flex;
   font-size: 22px;
   flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 704px) {
+  .nav-bar {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 0px;
+  }
 }
 
 .nav-bar img { /*Nick T*/
@@ -99,7 +115,7 @@ p,a,h1,h2 { /*Nick T*/
   background-color: #d6d9dc;
 }
 
-a.nav-bar-active { /*Nick T*/
+#nav-bar-active { /*Nick T*/
   text-decoration: underline;
 }
 
