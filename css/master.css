@@ -138,7 +138,6 @@ hr { /*Nick T*/
 }
 
 .index-container { /*Nick T*/
-  background: white;
   font-size: 20px;
   text-align: center;
 }
@@ -158,14 +157,19 @@ img.index-container-img { /*Nick T*/
   margin: auto;
 }
 
-.index-flex-container {
+.index-background-image { /*Nick T*/
+  background-image: url("../img/index-section-background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.index-flex-container { /*Nick T*/
   display: flex;
   justify-content: center;
-  background-color: white;
   padding-bottom: 40px;
 }
 
-.index-flex-container > div {
+.index-flex-container > div { /*Nick T*/
   background-color: #e6e6e6;
   margin: 10px;
   text-align: center;
