@@ -179,12 +179,13 @@ img.index-container-img { /*Nick T*/
   max-width: 425px;
 }
 
-@media only screen and (max-width: 430px) { /*Nick T*/
+@media only screen and (max-width: 600px) { /*Nick T*/
   .index-flex-container {
     flex-direction: column;
   }
   .index-flex-container > div {
-    width: auto;
+    width: 85%;
+    margin: 20px auto;
   }
 }
 
