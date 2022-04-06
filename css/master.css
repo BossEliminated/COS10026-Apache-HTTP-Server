@@ -142,10 +142,14 @@ hr { /*Nick T*/
   text-align: center;
 }
 
-.index-container p { /*Nick T*/
+.index-container { /*Nick T*/
   padding: 40px;
   max-width: 800px;
   margin: 0px auto;
+}
+
+.index-container p { /*Nick T*/
+  margin: 20px;
 }
 
 .index-container img { /*Nick T*/
