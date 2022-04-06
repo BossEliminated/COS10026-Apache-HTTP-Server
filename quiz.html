@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="css/master.css">
     <meta charset="utf-8">
     <title>Quiz</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="Apache details and facts">
     <meta name="keywords" content="Apache, info, details, facts, server">
     <meta name="author" content="A Patchy Team">
@@ -34,7 +33,7 @@
       <fieldset>
         <legend class="quiz-legend">Student Details</legend>
         <p><label for="ID">Apache ID</label>
-        <input type="digit" name="ID" id="ID" pattern="[0-9]{9}" required="required">
+        <input type="text" name="ID" id="ID" pattern="[0-9]{9}" required="required">
         </p>
         <p><label for="ID">Given Name</label>
         <input type="text" name="g_name" id="g_name" pattern="^[a-zA-Z]+$" maxlength="30" required="required">
@@ -104,9 +103,9 @@
         <legend>Question 5</legend>
         <p><strong>Q5)In which year was the Apache HTTP Server became the most used web server? </strong></p>
         <p>
-        </p><p><label for="year">Select here</label>
-        <select name="year" id="year">
-        <option value="">Please Select </option>"
+        </p><p><label for="year_used">Select here</label>
+        <select name="year" id="year_used">
+        <option value="">Please Select </option>
         <option value="1994_F">1994</option>
         <option value="1995_F">1995</option>
         <option value="1996_T">1996</option>
