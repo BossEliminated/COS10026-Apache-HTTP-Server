@@ -40,23 +40,24 @@
       <section class="beyondsection">
 
         <h3>Tooltips</h3>
-        <p>The background of text</p>
-        <code class="declinegrowthtable"><span>.content_tip{
-			font-size:18px;
-			visibility:hidden;
-			position:absolute;
-			text-align:center;
-			top:35px;
-			right:1.1em;
-			width:10em;
-			background-color:rgba(0,0,0,0.5);
-			border-radius:10px;
-			color:white;
+        <p>The background of text and text formatting</p>
+        <code class="declinegrowthtable"><span>.tooltip {
+			font-size: 18px;
+			display: none;
+			position: absolute;
+			text-align: center;
+			width: 10em;
+			background-color: #1f1f1fe3;
+			border-radius: 10px;
+			color: white;
+			padding: 2px 4px;
+			transform: translateY(22px);
+}
 
 }</span></code>
-        <p>Making tooltip appear, all paragraphs after class hover objects, appear. Paragraph element holds the content tip class which is hidden by default.</p>
-        <code class="declinegrowthtable">.tooltip_management:hover + p{
-	visibility:visible;
+        <p>Making tooltip appear, the paragraph after class hover objects, appear. Paragraph element holds the tooltip class which is hidden by default.</p>
+        <code class="declinegrowthtable">.show-tooltip:hover + p { /*Chris, Nick T*/
+  display: block;
 }
 </code>
       </section>
@@ -70,8 +71,8 @@
 			</section>
 	</div>
     <pre></pre>
-	  <footer class="footersetter">
-    <a href="mailto:103995646@student.swin.edu.au">By: The Apache Team</a>
-  </footer>
+	 <footer class="footersetter">
+		<a href="mailto:103995646@student.swin.edu.au">By: The Apache Team</a>
+	</footer>
   </body>
 </html>
