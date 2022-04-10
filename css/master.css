@@ -55,6 +55,12 @@ p,a,h1,h2 { /*Nick T*/
   display: block;
 }
 
+p.tooltip-large { /*Nick T*/
+  transform: translateY(0px);
+  width: auto;
+  padding: 10px;
+}
+
 /* -------------------- Navbar --------------------- */
 .nav-bar { /*Nick T*/
   background: #ffffff;
@@ -154,6 +160,11 @@ hr { /*Nick T*/
 
 img.index-container-img { /*Nick T*/
   height: 300px;
+  margin: auto;
+}
+
+.index-video { /*Nick T*/
+  width: 150px;
   margin: auto;
 }
 
