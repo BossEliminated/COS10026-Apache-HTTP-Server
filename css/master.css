@@ -37,7 +37,7 @@ p,a,h1,h2 { /*Nick T*/
 	border-radius: 10px;
 	color: white;
   padding: 2px 4px;
-  transform: translateY(22px);
+  transform: translateY(10px);
 }
 
 .tooltip::after { /*Chris, Nick T*/
@@ -93,7 +93,7 @@ p,a,h1,h2 { /*Nick T*/
 }
 
 .nav-bar > div {
-  height: 60px;
+  align-self: center;
 }
 
 .nav-bar > div > a { /*Nick T, yash*/
@@ -103,10 +103,6 @@ p,a,h1,h2 { /*Nick T*/
   margin-right: 20px;
   border-radius: 15px;
   display: inline-block;
-  /* Vertically Center text */
-  position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
 }
 
 .nav-bar a:hover { /* yash + nick */
@@ -427,4 +423,14 @@ footer {
 
 #changeimghover:hover + img{
 	display:block;
+}
+
+code.enhancements-code { /*Nick T*/
+  /* color: #ce0000; */
+  /* background-color: #cecece; */
+  /* padding: 3px; */
+  /* line-height: 1.6em; */
+  /* font-size: .9em; */
+  /* font-weight: 600; */
+  /* border: none; */
 }
