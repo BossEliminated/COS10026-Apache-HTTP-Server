@@ -37,7 +37,7 @@ p,a,h1,h2 { /*Nick T*/
 	border-radius: 10px;
 	color: white;
   padding: 2px 4px;
-  transform: translateY(10px);
+  transform: translateY(22px);
 }
 
 .tooltip::after { /*Chris, Nick T*/
@@ -51,14 +51,9 @@ p,a,h1,h2 { /*Nick T*/
   background: #1f1f1fe3;
 }
 
+/* The + is a sibling selector */
 .show-tooltip:hover + p { /*Chris, Nick T*/
   display: block;
-}
-
-p.tooltip-large { /*Nick T*/
-  transform: translateY(0px);
-  width: auto;
-  padding: 10px;
 }
 
 /* -------------------- Navbar --------------------- */
@@ -99,7 +94,7 @@ p.tooltip-large { /*Nick T*/
 }
 
 .nav-bar > div {
-  align-self: center;
+  height: 60px;
 }
 
 .nav-bar > div > a { /*Nick T, yash*/
@@ -109,6 +104,10 @@ p.tooltip-large { /*Nick T*/
   margin-right: 20px;
   border-radius: 15px;
   display: inline-block;
+  /* Vertically Center text */
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .nav-bar a:hover { /* yash + nick */
@@ -160,11 +159,6 @@ hr { /*Nick T*/
 
 img.index-container-img { /*Nick T*/
   height: 300px;
-  margin: auto;
-}
-
-.index-video { /*Nick T*/
-  width: 150px;
   margin: auto;
 }
 
@@ -434,14 +428,4 @@ footer {
 
 #changeimghover:hover + img{
 	display:block;
-}
-
-code.enhancements-code { /*Nick T*/
-  /* color: #ce0000; */
-  /* background-color: #cecece; */
-  /* padding: 3px; */
-  /* line-height: 1.6em; */
-  /* font-size: .9em; */
-  /* font-weight: 600; */
-  /* border: none; */
 }
