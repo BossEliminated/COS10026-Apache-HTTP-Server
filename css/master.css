@@ -319,6 +319,35 @@ th.declinegrowthtable{ /*Chris*/
   font-size:20px;
 }
 
+.quiz-paragraph{ /*Syed*/
+	color:rgb(0, 0, 204);
+}
+
+.quiz-question{ /*Syed*/
+	color:rgb(51, 153, 51);
+}
+
+.quiz-question-1{ /*Syed*/
+
+	color:rgb(128, 128, 0);
+}
+
+.quiz-question-2{ /*Syed*/
+	color:rgb(102, 0, 102);
+}
+
+.quiz-question-3{ /*Syed*/
+	color:rgb(230, 138, 0);
+}
+
+.quiz-question-4{ /*Syed*/
+	color:rgb(204, 51, 0);
+}
+
+.quiz-question-5{ /*Syed*/
+	color:rgb(102, 102, 51);
+}
+
 /* ----------------- Footer ---------------- */
 
 footer {
